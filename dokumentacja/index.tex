@@ -1,0 +1,66 @@
+\documentclass[a4paper,12pt,notitlepage]{mwrep}
+%\usepackage{fullpage}
+
+\usepackage[a4paper, margin=6em, vmargin={6em, 8em}]{geometry}
+\usepackage{ltxtable}
+\usepackage{verbatim}
+\usepackage{float}
+%\addtolength{\oddsidemargin}{-.25cm}
+%\addtolength{\evensidemargin}{-.25cm}
+%\addtolength{\textwidth}{0.5cm}
+%\addtolength{\topmargin}{+.25cm}
+%\addtolength{\textheight}{0.5cm}
+
+\usepackage{fancyhdr}
+\pagestyle{fancyplain}
+
+\renewcommand{\chaptermark}[1]{\markboth{#1}{}}
+% section number and title
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}}
+
+\usepackage{latexsym}
+\usepackage[MeX]{polski}
+\usepackage[utf8]{inputenc}% ew. utf8 lub cp12501
+\usepackage[pdftex]{graphicx}
+\usepackage{rotating}
+\usepackage{setspace}
+\usepackage{float}
+\usepackage{lastpage}
+\usepackage{subfig}
+
+\newcommand{\dzien}{\today}
+
+\newcommand{\wersja}{Wersja \textbf{0.1} z dnia \textbf{\dzien}}
+\newcommand{\cfoottext}{Kraków, czerwiec 2012}
+\renewcommand{\footrulewidth}{0.4pt}
+\cfoot{\cfoottext}
+
+\frenchspacing
+
+\usepackage{hyperref}
+\usepackage{color}
+\hypersetup{colorlinks=true}
+\definecolor{mycol}{RGB}{4,27,77}
+\hypersetup{linkcolor=mycol, urlcolor=mycol}
+
+\date{\today}
+
+\begin{document}
+\include{title}
+
+\onehalfspacing
+\rfoot{\scriptsize{Strona: \thepage\  z\ \pageref{LastPage}}}
+\cfoot{\scriptsize{\wersja}}
+
+% komenda \tocless pozwoli na niepokazywanie elementu w spisie tresci
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup}
+\addtocounter{page}{1}
+
+\tableofcontents
+
+
+\include{wstep}
+\include{biblio}
+
+\end{document}
