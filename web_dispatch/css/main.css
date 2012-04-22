@@ -5,6 +5,10 @@ body {
 	line-height: 150%;
 }
 
+a {
+	color: #000000;
+}
+
 #top {
 	width: 100%;
 	height: 50px;
@@ -78,6 +82,19 @@ body {
 	background: #efc109;
 }
 
+#menu .number {
+	padding: 3px;
+	width: 20px;
+	border-radius: 15px;
+	background: #efc109;
+	font-weight: bold;
+	float: right;
+	margin-right: 40px;
+	position: relative;
+	bottom: 4px;
+	text-align: center;
+}
+
 
 #top h2 {
 	letter-spacing: -1px;
@@ -93,8 +110,97 @@ body {
 #container {
 	padding: 30px;
 	max-width: 1000px;
-
 }
 
 #container p {
+}
+
+form {
+	width: 500px;
+	position: absolute;
+	z-index: -10;
+}
+
+form p {
+	display: table;
+}
+
+form label {
+	display: table;
+	width: 100%;
+	position: relative;
+	top: 10px;
+}
+
+form input {
+	font-size: 16px;
+	position: relative;
+	top: -10px;
+	width: 300px;
+	border: 0px;
+	float: right;
+	padding: 5px;
+	background: #F3F3F3;
+}
+
+form input[type="text"] {
+	font-family: inherit;
+	float: left;
+	width: 480px;
+	display: table;
+	font-size: 20px;
+	padding: 10px;
+}
+
+form input[type="file"] {
+	float: left;
+	width: 480px;
+	display: table;
+	font-size: 20px;
+	padding: 10px;
+	border: 0px;
+}
+
+form input[type="submit"] {
+	font-family: inherit;
+	color: inherit;
+	float: right;
+	padding: 10px;
+	border: 0px;
+	background: #efc109;
+	width: auto;
+	margin-top: 30px;
+}
+
+
+
+.file-wrapper {
+	cursor: pointer;
+	overflow: hidden;
+	position: relative;
+	background: #F3F3F3;
+	width: 100%;
+}
+.file-wrapper input {
+  cursor: pointer;
+  font-size: 100px;
+  height: 100%;
+  filter: alpha(opacity=1);
+  -moz-opacity: 0.01;
+  opacity: 0.01;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.file-wrapper .button {
+  cursor: pointer;
+  display: inline-block;
+  background: #efc109;
+  padding: 10px;
+  width: 180px;
+}
+
+.file-wrapper .file-holder {
+	position: relative;
+	left: 15px;
 }
