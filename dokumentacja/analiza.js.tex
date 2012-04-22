@@ -1,0 +1,213 @@
+\newcolumntype{R}{>{\raggedright\arraybackslash}X}
+\chapter{Porównanie bibliotek grafowych w języku JavaScript}
+Poniżej prezentujemy porównanie wybranych z kilkunastu różnych narzędzi JavaScriptowych, tych najciekawszych którymi można przedstawiać grafy.
+
+\section{Informacje podstawowe}
+\subsection{JavaScript InfoVis Toolkit}
+
+\begin{table}[!htbp]
+\begin{tabularx}{\textwidth}{ ||l|R|| }
+\hline
+\textbf{Adres} & \url{http://thejit.org/} \\
+\hline
+\textbf{Licencja} & new BSD license - możliwe kopiowanie, modyfikacja, rozpowszechnianie, sprzedaż z zachowaniem informacji o autorze; więcej: \url{https://github.com/philogb/jit/blob/master/LICENSE} \\
+\hline
+
+\textbf{Rozszerzalność} & Pod względem prawnym -- rozszerzalność możliwa. Pod względem technicznym -- kilka tysięcy linii kodu, jednakże brak sformalizowanej dokumentacji -- polega ona na komentarzach w kodzie \\
+\hline
+
+\textbf{Inne uwagi} & Bardzo ładna, używana m.in. na stronach Mozilli oraz prezydenta USA. Dokumentacja korzystania z biblioteki: \url{http://thejit.org/static/v20/Docs/index/General.html}.
+Źródła: \url{https://github.com/philogb/jit} \\
+\hline
+
+\textbf{Ocena} & Jedynym problemem może być tylko maksymalna liczba generowanych węzłów. Poza tym posiada raczej wszystko, czego nam potrzeba, a w dodatku jest bardzo ładna. \\
+\hline
+\end{tabularx}
+\caption{JavaScript InfoVis Toolkit - Informacje Podstawowe}
+\end{table}
+
+
+\vfill
+\subsection{JSViz}
+
+\begin{table}[H]
+\begin{tabularx}{\textwidth}{ ||l|R|| }
+\hline
+\textbf{Adres} & \url{http://code.google.com/p/jsviz/} \\
+\hline
+\textbf{Licencja} & Apache 2.0 - dopuszcza użycie kodu źródłowego zarówno na potrzeby wolnego oprogramowania, jak i zamkniętego oprogramowania komercyjnego. \\
+\hline
+
+\textbf{Rozszerzalność} & Licencja zezwala, aczkolwiek brak dokumentacji, jedynie komentarze w kodzie o długości kilku/kilkunastu tysięcy linii. \\
+\hline
+
+\textbf{Inne uwagi} & Niedostatecznie przyjemna dla oka. \\
+\hline
+
+\textbf{Ocena} & Brak jakichkolwiek etykiet, prawie żadna możliwość wpływu na wygląd generowanego grafu, dość długie i chaotyczne generowanie się grafu, biblioteka z przed 5 lat, nie zachęca wyglądem. \\
+\hline
+\end{tabularx}
+\caption{JSViz - Informacje Podstawowe}
+\end{table}
+
+
+\vfill
+\subsection{Dracula}
+
+\begin{table}[H]
+\begin{tabularx}{\textwidth}{ ||l|R|| }
+\hline
+\textbf{Adres} & \url{http://www.graphdracula.net/} \\
+\hline
+\textbf{Licencja} & MIT (X11) license - możliwe są kopiowanie, modyfikacja, rozpowszechnianie, w tym sprzedaż. \\
+\hline
+
+\textbf{Rozszerzalność} & Pod względem prawnym -- rozszerzalność możliwa. Pod względem technicznym -- ok. 10 tysięcy linii kodu, jednakże brak sformalizowanej dokumentacji -- polega ona na komentarzach w kodzie i udostępnieniu pojedynczego przykładu na stronie projektu oraz skomentowanych przykładów możliwych do ściągnięcia. \\
+\hline
+
+\textbf{Inne uwagi} & Niewystarczająco wydajna, brak wbudowanych mechanizmów ,,ładnego'' rozkładania grafów w przestrzeni. \\
+\hline
+
+\end{tabularx}
+\caption{Dracula - Informacje Podstawowe}
+\end{table}
+
+
+
+
+\vfill
+\newpage
+\section{Funkcjonalność}
+\subsection{JavaScript InfoVis Toolkit}
+
+\begin{table}[H]
+\begin{tabularx}{\textwidth}{ ||l|R|| }
+\hline
+\textbf{Interaktywne węzły} & Tak \\
+\hline
+\textbf{Interaktywne ścieżki} & Nie \\
+\hline
+\textbf{Zoom} & Tak \\
+\hline
+\textbf{Opis węzłów} & Tak \\
+\hline
+\textbf{Opis ścieżek} & Tak \\
+\hline
+\textbf{Automatyczna zmiana kształtu} & Nie \\
+\hline
+\textbf{Inne uwagi} & Możliwość przesuwania grafu. Wczytuje dane w formacie JSON \\
+\hline
+
+\end{tabularx}
+\caption{JavaScript InfoVis Toolkit - Funkcjonalność}
+\end{table}
+
+
+\subsection{JSViz}
+
+\begin{table}[H]
+\begin{tabularx}{\textwidth}{ ||l|R|| }
+\hline
+\textbf{Interaktywne węzły} & Tak \\
+\hline
+\textbf{Interaktywne ścieżki} & Nie \\
+\hline
+\textbf{Zoom} & Nie \\
+\hline
+\textbf{Opis węzłów} & Nie \\
+\hline
+\textbf{Opis ścieżek} & Nie \\
+\hline
+\textbf{Automatyczna zmiana kształtu} & Nie \\
+\hline
+\textbf{Inne uwagi} & Wczytuje dane w formacie XML\\
+\hline
+
+\end{tabularx}
+\caption{JSViz - Funkcjonalność}
+\end{table}
+
+
+\subsection{Dracula}
+
+\begin{table}[H]
+\begin{tabularx}{\textwidth}{ ||l|R|| }
+\hline
+\textbf{Interaktywne węzły} & Tak \\
+\hline
+\textbf{Interaktywne ścieżki} & Nie \\
+\hline
+\textbf{Zoom} & Nie \\
+\hline
+\textbf{Opis węzłów} & Tak \\
+\hline
+\textbf{Opis ścieżek} & Tak \\
+\hline
+\textbf{Automatyczna zmiana kształtu} & Nie \\
+\hline
+\textbf{Inne uwagi} & W bibliotece zaimplementowane takie algorytmy jak: Bellman-Ford, Dijkstra, Floyd-Warshall, quicksort, selectionsort, mergesort, topologicalsort. W kodzie wiele funkcji czekających na implementacje.\\
+\hline
+\end{tabularx}
+\caption{Dracula - Funkcjonalność}
+\end{table}
+
+
+\section{Wydajność}
+Dla wyżej wymienionych bibliotek przeprowadziliśmy testy wydajnościowe. Ich wyniki są następujące:
+
+\subsection{JavaScript InfoVis Toolkit}
+
+\begin{table}[H]
+\begin{tabularx}{\textwidth}{ ||l|R|R|| }
+\hline
+\textbf{Węzłów} & \textbf{Brak krawędzi} & \textbf{Krawędzie} \\
+ &  & 0-3 dla każdego węzła \\
+\hline
+\textbf{100} & Generuję się od razu, można bez problemu korzystać. & Generuję się kilka sekund, korzysta się wygodnie. \\
+\hline
+\textbf{200} & Powoduje kilku/kilkunastosekundowe generowanie się grafu. & Podobnie, dodatkowo utrudnia wygodne korzystanie z grafu.	 \\
+\hline
+\textbf{500} & Powoduje kilkunastosekundowe generowanie się, korzystanie z grafu raczej niemożliwe. & Generowanie trwa kilka minut (zdecydowanie za długo).	 \\
+\hline
+\textbf{1000} & Generowanie trwa kilka minut. &  \\
+\hline
+\end{tabularx}
+\caption{JavaScript InfoVis Toolkit -- Wydajność}
+\end{table}
+
+\subsection{JSViz}
+
+\begin{table}[H]
+\begin{tabularx}{\textwidth}{ ||l|R|| }
+\hline
+\textbf{Węzłów} & \textbf{Krawędzie/brak krawędzi (0-3 dla każdego węzła)} \\
+\hline
+\textbf{100} & Generowanie trwa kilkadziesiąt sekund. \\
+\hline
+\textbf{200} & Generowanie trwa kilkadziesiąt sekund.	 \\
+\hline
+\textbf{500} & Generuje się kilka minut, nie można wygodnie korzystać.  \\
+\hline
+\end{tabularx}
+\caption{JSViz -- Wydajność}
+\end{table}
+
+\subsection{Dracula}
+
+\begin{table}[H]
+\begin{tabularx}{\textwidth}{ ||l|R|| }
+\hline
+\textbf{Węzłów} & \textbf{Krawędzie/brak krawędzi (0-3 dla każdego węzła)} \\
+\hline
+\textbf{500} & Powoduje zauważalny, ok 3 sek. narzut czasowy na tworzenie grafu.  \\
+\hline
+\textbf{1000} & Zawiesza przeglądarkę. \\
+\hline
+\end{tabularx}
+\caption{Dracula -- Wydajność}
+\end{table}
+
+\vfill
+\newpage
+\section{Wnioski}
+Zgodnie z powyższym porównaniem różnych bibliotek podjęliśmy decyzję, iż w naszym projekcie skorzystamy z możliwości jakie daje nam biblioteka JavaScriptInfoVis Toolkit. Jest ona najmłodszym z pośród przeglądanych projektów, ale jednocześnie jest bardzo rozbudowana i dopracowana. Pozwala na rysowanie wielu rodzajów grafów i robi to w bardzo ładny dla oka sposób. Dobrą rekomendacją dla niej jest także fakt, iż wykorzystywana jest przez Fundację Mozilla na swoich stronach, a także można ją znaleźć na oficjalnej stronie prezydenta Stanów Zjednoczonych. Kod biblioteki został napisany w dość czytelny sposób, korzystanie z niej nie powinno stanowić większych problemów. Licencja, na której jest udostępniana pozwala na wykorzystanie jej w naszym projekcie.

@@ -1,0 +1,89 @@
+\chapter{Analiza pliku wynikowego Dispatch Ridera}
+Program Dispatch Rider generuje przy odpowiedniej konfiguracji (recording=''true'') plik wyjściowy w formacie XML, który przedstawia model przetwarzanego problemu transportowego. W założeniu nasza aplikacja webowa ma otrzymywać taki plik wynikowy, otwierać go, a następnie parsować w celu odczytania istotnych dla wizualizacji danych. Dane te będą następnie przetwarzane do formatu akceptowanego przez wybraną przez nas bibliotekę graficzną (JavaScript InfoVis Toolkit).
+
+\section{Struktura pliku wynikowego Dispatch Ridera}
+Plik generowany przez Dispatch Ridera ma następującą strukturę:
+\begin{verbatim}
+<simulation_measures>
+    <measures comId="42" timestamp="0">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">
+            	83.2608973717183</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">
+           		34.85191972054854</measure>
+        </holon>
+    </measures>
+    <measures comId="51" timestamp="0">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">
+            	82.30488721735766</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">
+            	34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">
+            	66.91504977153873</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">
+            	21.8026373564547</measure>
+        </holon>
+    </measures>
+</simulation_measures>
+\end{verbatim}
+Dzięki temu, że jest to plik zgodny ze specyfikacją XML, do parsowania użyjemy JavaScriptu. Uściślając skorzystamy z inwentarza biblioteki jQuery i być może pluginu do przekształcania formatu XML w format JSON (przykładowy sposób zwykłego parsingu przy jej użyciu: \url{http://think2loud.com/224-reading-xml-with-jquery/}, \url{http://www.switchonthecode.com/tutorials/xml-parsing-with-jquery} oraz pluginu do konwersji pomiędzy XML i JSON: \url{http://www.fyneworks.com/jquery/xml-to-json/}).
+\section{Struktura pliku dla biblioteki graficznej}
+Powyższy plik XML będziemy przekształcać do formatu JSON i postaci podobnej do poniższej:
+\begin{verbatim}
+var json = [  
+    {  
+      "adjacencies": [  
+          "graphnode21",   
+          {  
+            "nodeTo": "graphnode1",  
+            "nodeFrom": "graphnode0",  
+            "data": {  
+              "$color": "#557EAA"  
+            }  
+          }, {  
+            "nodeTo": "graphnode13",  
+            "nodeFrom": "graphnode0",  
+            "data": {  
+              "$color": "#909291"  
+            }  
+          }  
+      ],  
+      "data": {  
+        "$color": "#83548B",  
+        "$type": "circle",  
+        "$dim": 10  
+      },  
+      "id": "graphnode0",  
+      "name": "graphnode0"  
+    }, {  
+      "adjacencies": [  
+          {  
+            "nodeTo": "graphnode2",  
+            "nodeFrom": "graphnode1",  
+            "data": {  
+              "$color": "#557EAA"  
+            }  
+          }, {  
+            "nodeTo": "graphnode4",  
+            "nodeFrom": "graphnode1",  
+            "data": {  
+              "$color": "#909291"  
+            }  
+          }
+      ],  
+      "data": {  
+        "$color": "#EBB056",  
+        "$type": "circle",  
+        "$dim": 11  
+      },  
+      "id": "graphnode1",  
+      "name": "graphnode1"  
+    }
+];
+\end{verbatim}

@@ -30,12 +30,14 @@
 
 \newcommand{\dzien}{\today}
 
-\newcommand{\wersja}{Wersja \textbf{0.1} z dnia \textbf{\dzien}}
+\newcommand{\wersja}{Wersja \textbf{1.0} z dnia \textbf{\dzien}}
 \newcommand{\cfoottext}{Kraków, czerwiec 2012}
 \renewcommand{\footrulewidth}{0.4pt}
 \cfoot{\cfoottext}
 
 \frenchspacing
+\usepackage{listings}
+\lstset{breaklines=true}
 
 \usepackage{hyperref}
 \usepackage{color}
@@ -44,6 +46,7 @@
 \hypersetup{linkcolor=mycol, urlcolor=mycol}
 
 \date{\today}
+
 
 \begin{document}
 \include{title}
@@ -59,8 +62,27 @@
 
 \tableofcontents
 
+\vfill
+\begin{center}
+\singlespacing
+\fbox{\begin{minipage}{0.8\textwidth}
+\footnotesize Niniejsze opracowanie powstało w trakcie i jako rezultat zajęć dydaktycznych z przedmiotu 
+wymienionego na stronie tytułowej, prowadzonych w Akademii Górniczo-Hutniczej w Krakowie
+(AGH) przez osobę (osoby) wymienioną (wymienione) po słowach "Prowadzący zajęcia"
+i nie może być wykorzystywane w jakikolwiek sposób i do jakichkolwiek celów, 
+w całości lub części, w szczególności publikowane w jakikolwiek sposób
+i w jakiejkolwiek formie, bez uzyskania uprzedniej, pisemnej zgody tej
+osoby (tych osób) lub odpowiednich władz AGH.
+\vspace{2ex} \\
+\textbf{Copyright \textcopyright 2012 Akademia Górniczo-Hutnicza (AGH) w Krakowie}
+      \end{minipage}
+}
+\onehalfspacing
+\end{center}
 
 \include{wstep}
+\include{analiza.js}
+\include{analiza.dispatch}
 \include{biblio}
 
 \end{document}
