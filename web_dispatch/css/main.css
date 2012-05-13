@@ -1,3 +1,4 @@
+/********************************************************* MAIN */
 body {
 	margin: 0px;
 	font-family: arial, tahoma, verdana, sans-serif;
@@ -105,58 +106,56 @@ a {
 	color: #fff;
 	float: left;
 	width: auto;
+	font-weight: lighter;
 }
 
 #container {
-	padding: 30px;
 	max-width: 1000px;
+	padding: 30px;
 }
 
 #container p {
 }
-
+/********************************************************* ADD-TASK */
 form {
-	width: 500px;
+	width: 720px;
 	position: absolute;
 	z-index: -10;
+	font-size: 16px;
 }
 
 form p {
 	display: table;
+	width: 100%;
+	margin-bottom: 0px;
 }
 
 form label {
 	display: table;
-	width: 100%;
+	float: left;
 	position: relative;
-	top: 10px;
+	top: 15px;
 }
 
 form input {
-	font-size: 16px;
-	position: relative;
-	top: -10px;
-	width: 300px;
 	border: 0px;
 	float: right;
 	padding: 5px;
 	background: #F3F3F3;
+	font-size: inherit;
 }
 
 form input[type="text"] {
 	font-family: inherit;
-	float: left;
 	width: 480px;
 	display: table;
-	font-size: 20px;
 	padding: 10px;
 }
 
 form input[type="file"] {
-	float: left;
 	width: 480px;
 	display: table;
-	font-size: 20px;
+	font-size: inherit;
 	padding: 10px;
 	border: 0px;
 }
@@ -164,43 +163,88 @@ form input[type="file"] {
 form input[type="submit"] {
 	font-family: inherit;
 	color: inherit;
-	float: right;
 	padding: 10px;
 	border: 0px;
-	background: #efc109;
+	background: #F2CC39;
 	width: auto;
 	margin-top: 30px;
+	cursor: pointer;
 }
 
+form input[type="submit"]:hover {
+	background: #efc109;
+}
 
+p.success {
+	background: #ffffff;
+}
 
-.file-wrapper {
-	cursor: pointer;
-	overflow: hidden;
-	position: relative;
-	background: #F3F3F3;
+p.success input {
+	background: #D7FFE8;
+}
+
+p.error input {
+	background: #FFD9D7;
+}
+
+p.message {
+	font-size: 0.8em;
+	color: #9E1810;
+	padding-left: 225px;
+}
+
+/******************************************************** TASKS-LIST */
+#task-table {
+	border-spacing: 0px;
 	width: 100%;
 }
-.file-wrapper input {
-  cursor: pointer;
-  font-size: 100px;
-  height: 100%;
-  filter: alpha(opacity=1);
-  -moz-opacity: 0.01;
-  opacity: 0.01;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.file-wrapper .button {
-  cursor: pointer;
-  display: inline-block;
-  background: #efc109;
-  padding: 10px;
-  width: 180px;
+
+#task-table th, #task-table td {
+	padding: 10px 0px 10px 60px;
+	width: 300px;
+	float: left;
 }
 
-.file-wrapper .file-holder {
-	position: relative;
-	left: 15px;
+#task-table th {
+	font-weight: lighter;
+	color: #777777;
+	text-align: left;
+}
+
+#task-table tr:nth-child(even) {
+	background: #EDEDED;
+}
+
+#task-table td {
+}
+
+#task-table a {
+	text-decoration: none;
+	display: table-inline;
+	background: #FFE16B;
+	padding: 5px;
+	margin: 0px;
+	margin-right: 20px;
+	border-radius: 5px;
+}
+
+#task-table a:hover {
+	background: #FFCE05;
+}
+
+
+/*************************************************************** EDIT */
+#edit input[type="submit"] {
+	margin-bottom: 30px;
+}
+
+#edit h2 {
+	margin: 0px;
+	margin-bottom: 15px;
+}
+
+#edit textarea {
+	width: 100%;
+	height: 250px;
+	margin-bottom: 30px;
 }

@@ -1,23 +1,31 @@
 <?php
-class Page {
+
+abstract class Page {
 	private $meta_title = "Web Dispatch Rider | AGH Kraków 2012";
 	private $top_title = "Web Dispatch Rider";
 	private $page_title;
+	public $uploads_dir = 'uploads';
+	public $ready_dir = 'ready';
 	private $menu = array();
 	private $style = array();
 	private $script = array();
-	public $content;
 	
 	public function __construct($page_title) {
 		$this->page_title = $page_title;
 		
+		// css
 		$this->addStyle('main');
-		$this->addScript('main');		
 		
-		$this->addMenuElement('Zadania obliczone', '#', 10);
-		$this->addMenuElement('W trakcie', '#', 3);
-		$this->addMenuElement('Zadania nieudane', '#', 1);
+		// js
+		$this->addScript('main');	
+		
+		$this->addMenuElement('Zadania obliczone', 'ready.php', $this->countDirs($this->ready_dir));
+		$this->addMenuElement('W trakcie', 'uploads.php', $this->countDirs($this->uploads_dir));
+		//$this->addMenuElement('Zadania nieudane', '#', 1);
 		$this->addMenuElement('Dodaj nowe', 'add_task.php');
+	}
+	
+	public function __destruct() {
 	}
 	
 	private function addMenuElement($name, $href, $number = null) {
@@ -61,7 +69,7 @@ class Page {
 		echo "<title>$this->meta_title</title>\n";
 		foreach($this->style as $element)
 			echo "<link rel='stylesheet' type='text/css' href='./css/$element.css' />";
-		echo "<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js'></script>";
+        echo "<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>\n";
 		foreach($this->script as $element)
 			echo "<script type='text/javascript' src='./js/$element.js'></script>";
 
@@ -69,22 +77,47 @@ class Page {
 		echo "</head>";
 	}
 	
-	private function showContet() {
-		echo "<div id='container'>";
-		echo $this->content;
-		echo "</div>";
+	abstract function display();
+	
+	private function showContent($container) {
+		echo $container ? "<div id='container'>" : '';
+		echo $this->display();
+		echo $container ?  "</div>" : '';
 	}
 	
-	public function showPage() {
+	public function showPage($container) {
 		echo "<!DOCTYPE html>\n<html lang='pl'>\n";
 		$this->showMeta();
 		echo "\n<body>";
 		$this->showTop();
-		$this->showContet();
+		$this->showContent($container);
 		echo "\n</body>\n</html>";
 	}
 	
-	public function slugify($text){ 
+	function input($name, $label, $options = null) {
+		$inputOptions = '';
+		foreach($options as $key => $value) {
+			$inputOptions .= $key.'="'.$value.'" ';
+		}
+		
+		$input = '<p><label>'.$label.'</label><input id="'.$name.'"
+			name="'.$name.'" placeholder="'.$label.'" '.$inputOptions.' /></p>';
+		$input .= "\n<p class='message'></p>";
+		return "$input\n";
+	}
+	
+	function textarea($name, $label, $value, $options = null) {
+		$result = '';
+		$areaOptions = '';
+		foreach($options as $key => $value)
+			$areaOptions .= $key.'="'.$value.'" ';
+			
+		$result .= '<h2>'.$label.':</h2>';
+		$result .= '<textarea name="'.$name.'" class="edit">'.$value.'</textarea>';
+		return $result;
+	}
+	
+	function slugify($text){ 
 		$in	=	array ('Ą','ą','Ć','ć','Ę','ę','Ł','ł','Ń','ń','Ó','ó','Ś','ś','Ź','ź','Ż','ż');
 		$out=	array ('a','a','c','c','e','e','l','l','n','n','o','o','s','s','z','z','z','z');
 		$text = trim($text);
@@ -96,6 +129,28 @@ class Page {
 		$text = preg_replace('/[^a-zA-Z0-9-]/', '-', $text);
 		$text = preg_replace('/-+/', '-', $text);
 		return $text;
+	}
+	
+	function fileUpload($file, $dir, $destination) {
+		$fileTmp = $file['tmp_name'];
+		$fileSize = $file['size']; 
+
+		if(is_uploaded_file($fileTmp)) { 
+			move_uploaded_file($fileTmp, "$dir/$destination"); 
+			chmod("$dir/$destination/$fileTmp", 666);
+			return true; 
+		}
+		return false;			
+	}
+	
+	private function countDirs($dir) {
+		$handle = opendir($dir);
+		$counter = 0;
+		while (false !== ($entry = readdir($handle)))
+			if ($entry != "." && $entry != ".." && is_dir($dir.'/'.$entry))
+				++$counter;
+		
+		return $counter;
 	}
 }
 ?>
