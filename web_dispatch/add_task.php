@@ -11,11 +11,11 @@ class AddTaskPage extends Page {
 			$task_dir = $this->slugify($task).$i;			
 			
 			// looking for a free directory name
-			while(file_exists($this->uploads_dir.'/'.$task_dir))
+			while(file_exists(self::$uploads_dir.'/'.$task_dir))
 				$task_dir = substr($task_dir, 0, -1).$i++;
 			
 			// creating a dir
-			$dir = $this->uploads_dir.'/'.$task_dir;
+			$dir = self::$uploads_dir.'/'.$task_dir;
 			mkdir($dir, 0777, true) or die ('Nie można utworzyć katalogu');
 			
 			// uploading files:			

@@ -83,4 +83,12 @@ jQuery(document).ready(function(){
 		event.preventDefault();
 		$(this).hide();
 	});
+        
+        
+        
+        
+        // toggle table task (.on - live function all the time, not only when loading content - needed to handle ajax data)
+        $(document).on("click", ".commission", (function () {
+            console.log($(this).children('div').slideToggle());
+        }));
 });

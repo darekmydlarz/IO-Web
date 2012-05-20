@@ -1,0 +1,2534 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<simulation_measures>
+    <measures comId="42" timestamp="0">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">83.2608973717183</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+    </measures>
+    <measures comId="51" timestamp="0">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">82.30488721735766</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">66.91504977153873</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">21.8026373564547</measure>
+        </holon>
+    </measures>
+    <measures comId="31" timestamp="0">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">81.80532495766526</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">62.81706407555863</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">21.8026373564547</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">65.02836464373496</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+    </measures>
+    <measures comId="16" timestamp="0">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">77.24787115813724</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">57.798586568693665</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">21.8026373564547</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">63.233521301121364</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">59.41014403854201</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">19.27050983124842</measure>
+        </holon>
+    </measures>
+    <measures comId="6" timestamp="0">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">71.46795227817414</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">55.21474239502704</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">21.8026373564547</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">57.11519307394881</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">56.92822610985011</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">19.27050983124842</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">56.77842740449139</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+    </measures>
+    <measures comId="47" timestamp="0">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">72.55904012686851</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">55.438362256076495</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">21.8026373564547</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">52.79458140923181</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.07418645340198</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">19.27050983124842</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">52.74637029444851</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">46.355228096849366</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.998445923768998</measure>
+        </holon>
+    </measures>
+    <measures comId="37" timestamp="0">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">72.91666963924013</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.92573808519643</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">21.8026373564547</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.30260269768907</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">46.39248649577536</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">19.27050983124842</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">46.97980971328024</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">44.781430239764795</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.998445923768998</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">38.35209911693502</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.400493141954225</measure>
+        </holon>
+    </measures>
+    <measures comId="22" timestamp="0">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">72.45986186307569</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">46.081984570923105</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">21.8026373564547</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">53.91123257420194</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">46.58188280782948</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">19.27050983124842</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">41.38240295333483</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">41.0793442528343</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.998445923768998</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">38.751744917562725</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.400493141954225</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">35.71371300424773</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.143546483866697</measure>
+        </holon>
+    </measures>
+    <measures comId="1" timestamp="0">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">73.35630534802698</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.57096173557816</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">21.8026373564547</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">46.728822866159405</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">40.45084971874737</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">19.27050983124842</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">41.7752305537534</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.20535224951455</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.998445923768998</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.262034603612236</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.400493141954225</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">28.792075754255873</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.143546483866697</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">28.722720344899166</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.118033988749895</measure>
+        </holon>
+    </measures>
+    <measures comId="10" timestamp="0">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">69.70383944109707</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">43.6052747129094</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">21.8026373564547</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.05709628591621</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">38.54101966249684</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">19.27050983124842</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.301651610693426</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">33.996891847537995</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.998445923768998</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">32.80098628390845</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.400493141954225</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">22.287092967733393</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.143546483866697</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">18.23606797749979</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.118033988749895</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">20.0</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.0</measure>
+        </holon>
+    </measures>
+    <measures comId="0" timestamp="7">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">69.70383944109707</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">43.6052747129094</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">21.8026373564547</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.05709628591621</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">38.54101966249684</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">19.27050983124842</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.301651610693426</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">33.996891847537995</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.998445923768998</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">32.80098628390845</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.400493141954225</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">22.287092967733393</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.143546483866697</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">19.104866969255035</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.97760195360867</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">20.0</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.0</measure>
+        </holon>
+    </measures>
+    <measures comId="21" timestamp="10">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">69.70383944109707</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">43.6052747129094</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">21.8026373564547</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.05709628591621</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">38.54101966249684</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">19.27050983124842</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.301651610693426</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">33.996891847537995</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.998445923768998</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">32.80098628390845</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.400493141954225</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.365524110283943</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.903882032022076</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">19.104866969255035</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.97760195360867</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">20.0</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.0</measure>
+        </holon>
+    </measures>
+    <measures comId="35" timestamp="18">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">69.70383944109707</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">43.6052747129094</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">21.8026373564547</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.05709628591621</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">38.54101966249684</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">19.27050983124842</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.301651610693426</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">33.996891847537995</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.998445923768998</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">34.41752352758026</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.385254915624213</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.365524110283943</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.903882032022076</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">19.104866969255035</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.97760195360867</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">20.0</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.0</measure>
+        </holon>
+    </measures>
+    <measures comId="46" timestamp="27">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">69.70383944109707</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">43.6052747129094</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">21.8026373564547</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.05709628591621</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">38.54101966249684</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">19.27050983124842</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.301651610693426</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">39.19258066447064</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.882037325678787</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">34.41752352758026</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.385254915624213</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.365524110283943</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.903882032022076</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">19.104866969255035</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.97760195360867</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">20.0</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.0</measure>
+        </holon>
+    </measures>
+    <measures comId="17" timestamp="29">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">69.70383944109707</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">43.6052747129094</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">21.8026373564547</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.05709628591621</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.91739253563692</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.028227836992027</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.301651610693426</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">39.19258066447064</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.882037325678787</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">34.41752352758026</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.385254915624213</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.365524110283943</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.903882032022076</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">19.104866969255035</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.97760195360867</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">20.0</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.0</measure>
+        </holon>
+    </measures>
+    <measures comId="49" timestamp="37">
+        <holon id="0">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">69.70383944109707</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.49174266783616</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.8996492727731</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.05709628591621</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.91739253563692</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.028227836992027</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.301651610693426</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">39.19258066447064</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.882037325678787</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">34.41752352758026</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.385254915624213</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.365524110283943</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.903882032022076</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">19.104866969255035</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.97760195360867</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">20.0</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.0</measure>
+        </holon>
+    </measures>
+    <measures comId="40" timestamp="51">
+        <holon id="0">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">61.49650164190885</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">34.85191972054854</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.49174266783616</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.8996492727731</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.05709628591621</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.91739253563692</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.028227836992027</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.301651610693426</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">39.19258066447064</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.882037325678787</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">34.41752352758026</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.385254915624213</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.365524110283943</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.903882032022076</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">19.104866969255035</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.97760195360867</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">20.0</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.0</measure>
+        </holon>
+    </measures>
+    <measures comId="12" timestamp="111">
+        <holon id="0">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">61.49650164190885</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">17.53145620516019</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.49174266783616</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.8996492727731</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.05709628591621</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.91739253563692</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.028227836992027</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.301651610693426</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">39.19258066447064</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.382037325678787</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.964844455309965</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.635254915624213</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.365524110283943</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.653882032022076</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">19.104866969255035</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.22760195360867</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.0</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.5</measure>
+        </holon>
+    </measures>
+    <measures comId="33" timestamp="113">
+        <holon id="0">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">61.49650164190885</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">17.53145620516019</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.49174266783616</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.8996492727731</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.05709628591621</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.91739253563692</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.028227836992027</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.301651610693426</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">39.19258066447064</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.882037325678787</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">32.17181073042834</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">15.417512298770026</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.365524110283943</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.653882032022076</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">19.104866969255035</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.22760195360867</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">23.058621384311845</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.5</measure>
+        </holon>
+    </measures>
+    <measures comId="45" timestamp="115">
+        <holon id="0">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">61.49650164190885</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">17.53145620516019</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.49174266783616</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.8996492727731</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.05709628591621</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.91739253563692</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.028227836992027</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.301651610693426</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.650825805346713</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.51869692661528</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.827167507006754</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">32.17181073042834</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.698605278307199</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.365524110283943</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.653882032022076</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">19.104866969255035</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.22760195360867</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">23.058621384311845</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.7793106921559225</measure>
+        </holon>
+    </measures>
+    <measures comId="8" timestamp="121">
+        <holon id="0">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">61.49650164190885</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">17.53145620516019</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.49174266783616</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">13.3996492727731</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">1.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">37.05709628591621</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">18.528548142958105</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.91739253563692</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.278227836992027</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.26132638187196</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">15.305250288262624</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.51869692661528</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.827167507006754</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">32.17181073042834</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.698605278307199</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.365524110283943</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.653882032022076</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">19.104866969255035</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.22760195360867</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">23.058621384311845</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.7793106921559225</measure>
+        </holon>
+    </measures>
+    <measures comId="29" timestamp="128">
+        <holon id="0">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">61.49650164190885</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">17.53145620516019</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.49174266783616</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.245940474556726</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.968173621822956</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">15.719812739432427</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.91739253563692</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.528227836992027</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.26132638187196</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">15.805250288262624</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.51869692661528</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.827167507006754</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">32.17181073042834</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.698605278307199</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.365524110283943</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.653882032022076</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">19.104866969255035</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.22760195360867</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">23.058621384311845</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.7793106921559225</measure>
+        </holon>
+    </measures>
+    <measures comId="39" timestamp="145">
+        <holon id="0">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">62.03057373322955</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.297436820100325</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.49174266783616</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.245940474556726</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.968173621822956</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">15.719812739432427</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.91739253563692</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.528227836992027</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.26132638187196</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">15.805250288262624</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.51869692661528</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.827167507006754</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">32.17181073042834</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.698605278307199</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.365524110283943</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.653882032022076</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">19.104866969255035</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.22760195360867</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">23.058621384311845</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.7793106921559225</measure>
+        </holon>
+    </measures>
+    <measures comId="3" timestamp="197">
+        <holon id="0">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">62.03057373322955</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.297436820100325</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.49174266783616</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.245940474556726</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.968173621822956</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">15.719812739432427</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.91739253563692</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.528227836992027</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.26132638187196</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">15.805250288262624</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.51869692661528</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.827167507006754</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">32.838477397095005</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.031938611640533</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.365524110283943</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.653882032022076</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">21.54761164348675</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.255218383278792</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">22.2512037878791</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.875601893939549</measure>
+        </holon>
+    </measures>
+    <measures comId="32" timestamp="204">
+        <holon id="0">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">62.03057373322955</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.297436820100325</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.49174266783616</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.245940474556726</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.968173621822956</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">15.719812739432427</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.91739253563692</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.528227836992027</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.26132638187196</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">15.805250288262624</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.51869692661528</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.827167507006754</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">32.8005070328097</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.9519410160110375</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.66829974801594</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.805269850888074</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">21.54761164348675</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.255218383278792</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">22.2512037878791</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.875601893939549</measure>
+        </holon>
+    </measures>
+    <measures comId="9" timestamp="220">
+        <holon id="0">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">62.03057373322955</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.297436820100325</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.00072238298533</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.500430332131312</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.20424159932275</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.337846728182324</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.10997493920418</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">15.278227836992027</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.5260551727946</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.524988890197504</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.85203025994861</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.99383417367342</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">32.8005070328097</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.9519410160110375</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.66829974801594</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.805269850888074</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">21.54761164348675</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.255218383278792</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">22.2512037878791</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.875601893939549</measure>
+        </holon>
+    </measures>
+    <measures comId="18" timestamp="225">
+        <holon id="0">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">62.03057373322955</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.297436820100325</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.00072238298533</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.500430332131312</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.160756025390214</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">16.566103941216056</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.237192835800016</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.485428375101177</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.5260551727946</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.524988890197504</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.85203025994861</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.99383417367342</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">32.8005070328097</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.9519410160110375</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.66829974801594</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.805269850888074</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">21.54761164348675</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.255218383278792</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">22.2512037878791</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.875601893939549</measure>
+        </holon>
+    </measures>
+    <measures comId="28" timestamp="228">
+        <holon id="0">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">62.03057373322955</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.297436820100325</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.00072238298533</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.500430332131312</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.91703312537859</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.007875884159349</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.237192835800016</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.485428375101177</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.5260551727946</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.524988890197504</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.85203025994861</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.99383417367342</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">32.8005070328097</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.9519410160110375</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.66829974801594</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.805269850888074</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">21.54761164348675</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.255218383278792</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">22.2512037878791</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.875601893939549</measure>
+        </holon>
+    </measures>
+    <measures comId="38" timestamp="235">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">63.42351161668282</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.875</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.00072238298533</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.500430332131312</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.91703312537859</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.007875884159349</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.237192835800016</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.485428375101177</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.5260551727946</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.524988890197504</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.85203025994861</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.99383417367342</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">32.8005070328097</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.9519410160110375</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.66829974801594</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.805269850888074</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">21.54761164348675</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.255218383278792</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">22.2512037878791</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.875601893939549</measure>
+        </holon>
+    </measures>
+    <measures comId="14" timestamp="300">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">63.42351161668282</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.875</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.00072238298533</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.500430332131312</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.91703312537859</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.007875884159349</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.237192835800016</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.485428375101177</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.5260551727946</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.524988890197504</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">41.85203025994861</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.827167507006754</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">34.35453620830465</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.3058100028667</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.972320076224293</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.250173233805702</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">22.350158594404615</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.715873720362161</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.96178668202519</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.12801954624198</measure>
+        </holon>
+    </measures>
+    <measures comId="23" timestamp="301">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">63.42351161668282</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.875</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.00072238298533</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">14.500430332131312</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.91703312537859</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.007875884159349</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.237192835800016</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.485428375101177</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.5260551727946</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.524988890197504</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.852030259948606</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.993834173673422</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">34.35453620830465</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.3058100028667</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.78810918638959</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.467475368975784</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">22.350158594404615</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.715873720362161</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.96178668202519</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.12801954624198</measure>
+        </holon>
+    </measures>
+    <measures comId="48" timestamp="310">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">63.42351161668282</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.875</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">2.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.84950370402639</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">15.226264477191108</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.91703312537859</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.007875884159349</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.57052616913335</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.549622509623594</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">47.88014108889413</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.70203184824726</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.99538244163752</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.993834173673422</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">34.35453620830465</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.3058100028667</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.78810918638959</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.467475368975784</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">22.350158594404615</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.715873720362161</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.96178668202519</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.12801954624198</measure>
+        </holon>
+    </measures>
+    <measures comId="43" timestamp="311">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">63.42351161668282</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.875</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.166719294320366</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">15.374523006926015</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.91703312537859</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.007875884159349</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.41879503623454</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.623920357575393</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.06016359514215</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.792043101371275</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.472638385381366</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">13.596811553311124</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">34.35453620830465</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.3058100028667</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.78810918638959</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.467475368975784</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">22.350158594404615</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.715873720362161</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.96178668202519</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.12801954624198</measure>
+        </holon>
+    </measures>
+    <measures comId="30" timestamp="327">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">65.92351161668282</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.5</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.166719294320366</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.584564771647882</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.847849874093015</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.706612152028786</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.40947780232543</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.830606343745423</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.06016359514215</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.792043101371275</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.472638385381366</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.245375630255065</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">34.35453620830465</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.3058100028667</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.78810918638959</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.467475368975784</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">22.350158594404615</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.715873720362161</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.96178668202519</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.12801954624198</measure>
+        </holon>
+    </measures>
+    <measures comId="5" timestamp="390">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">65.92351161668282</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.5</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.166719294320366</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.584564771647882</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.847849874093015</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.706612152028786</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.40947780232543</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.830606343745423</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.06016359514215</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.792043101371275</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.472638385381366</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.245375630255065</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.22857437846406</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.55322222549937</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.495274372793556</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.41978448671883</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.74659405723351</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.045788766754805</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.794954562821857</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.581334564695227</measure>
+        </holon>
+    </measures>
+    <measures comId="15" timestamp="391">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">65.92351161668282</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.5</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.166719294320366</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.584564771647882</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.847849874093015</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.706612152028786</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.40947780232543</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.830606343745423</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.06016359514215</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.792043101371275</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.472638385381366</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.245375630255065</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.22857437846406</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.55322222549937</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.495274372793556</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.41978448671883</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.74659405723351</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.045788766754805</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.755802306140424</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.0793177746868565</measure>
+        </holon>
+    </measures>
+    <measures comId="44" timestamp="400">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">65.92351161668282</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.5</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.166719294320366</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.584564771647882</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.847849874093015</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.706612152028786</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.40947780232543</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.830606343745423</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.06016359514215</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.792043101371275</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.61461935202853</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.045403719479957</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.22857437846406</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.55322222549937</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.495274372793556</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.41978448671883</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.74659405723351</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.045788766754805</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.755802306140424</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.0793177746868565</measure>
+        </holon>
+    </measures>
+    <measures comId="7" timestamp="417">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">65.92351161668282</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.5</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">52.22196539262243</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.176919623391555</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.65526747052576</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.610320950245157</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.719121865036946</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.985428375101177</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.59793386142316</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.808003792056756</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.61461935202853</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.045403719479957</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.22857437846406</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.55322222549937</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.495274372793556</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.41978448671883</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.74659405723351</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.045788766754805</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.755802306140424</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.0793177746868565</measure>
+        </holon>
+    </measures>
+    <measures comId="20" timestamp="421">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">67.73243951668292</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.596291201783625</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">52.22196539262243</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.176919623391555</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.65526747052576</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.610320950245157</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.74490405214268</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.200548272922887</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.59793386142316</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.808003792056756</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.61461935202853</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.045403719479957</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.22857437846406</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.55322222549937</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.495274372793556</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.41978448671883</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.74659405723351</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.045788766754805</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.755802306140424</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.0793177746868565</measure>
+        </holon>
+    </measures>
+    <measures comId="4" timestamp="476">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">68.38694485828458</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.647542485937368</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">52.22196539262243</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.176919623391555</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.65526747052576</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.610320950245157</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.74490405214268</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.200548272922887</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.59793386142316</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.808003792056756</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.61461935202853</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.045403719479957</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">39.200286269780726</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.929022744310034</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.637348275180695</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.339925277239826</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.278819528697476</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.949555342208394</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.948384709707675</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.175608976470484</measure>
+        </holon>
+    </measures>
+    <measures comId="24" timestamp="483">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">68.38694485828458</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.647542485937368</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">52.22196539262243</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.176919623391555</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.65526747052576</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.610320950245157</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.74490405214268</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.200548272922887</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.59793386142316</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.808003792056756</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">42.61461935202853</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.045403719479957</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">40.07888255304605</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.034678989722362</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.636402754633686</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.27705468230658</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.17904990947564</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.994203806451859</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.162334049942856</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.2268602606242265</measure>
+        </holon>
+    </measures>
+    <measures comId="13" timestamp="488">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">68.38694485828458</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.647542485937368</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">3.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">52.22196539262243</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">12.176919623391555</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.65526747052576</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.610320950245157</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.74490405214268</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.200548272922887</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.59793386142316</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.808003792056756</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">40.72951828642623</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.720566895019823</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">40.07888255304605</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.034678989722362</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.636402754633686</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.549359423905835</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.17904990947564</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.994203806451859</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.129162631042632</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.022657087726779</measure>
+        </holon>
+    </measures>
+    <measures comId="50" timestamp="503">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">68.38694485828458</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.647542485937368</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.29971475821072</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">11.969074884834887</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">52.95926708489674</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.635075828643355</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.554933031397724</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.450548272922887</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.09623738831067</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.40961306956314</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">40.06887103277969</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.589434370371012</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">40.07888255304605</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.034678989722362</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.636402754633686</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.549359423905835</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.17904990947564</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.994203806451859</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.129162631042632</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.022657087726779</measure>
+        </holon>
+    </measures>
+    <measures comId="2" timestamp="563">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">66.97890316829665</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.325290658380329</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.29971475821072</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.264263964411116</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">52.95926708489674</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.635075828643355</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.554933031397724</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.450548272922887</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.09623738831067</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.40961306956314</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">40.06887103277969</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.589434370371012</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">40.07888255304605</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.034678989722362</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.636402754633686</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.549359423905835</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.93496619817655</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.378965778331881</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.129162631042632</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.022657087726779</measure>
+        </holon>
+    </measures>
+    <measures comId="34" timestamp="574">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">66.97890316829665</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.325290658380329</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.29971475821072</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.264263964411116</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">52.95926708489674</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.635075828643355</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.554933031397724</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.450548272922887</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.09623738831067</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.40961306956314</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">40.06887103277969</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.589434370371012</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.07620657917458</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.881979329624857</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.47776159424464</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.747898324871587</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.677589189858907</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.240704652426406</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.334669962044167</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.764855625681148</measure>
+        </holon>
+    </measures>
+    <measures comId="52" timestamp="589">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">66.97890316829665</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.325290658380329</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.09470941001696</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.631762690805827</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">52.95926708489674</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.635075828643355</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.554933031397724</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.450548272922887</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.09623738831067</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.40961306956314</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">41.064599018224506</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.488801832685617</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.07620657917458</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.505583463699885</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.47776159424464</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.747898324871587</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.677589189858907</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.240704652426406</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.334669962044167</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.764855625681148</measure>
+        </holon>
+    </measures>
+    <measures comId="19" timestamp="607">
+        <holon id="0">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">66.55533672439918</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">10.133883476483184</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.13205885898522</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.53353260477449</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">55.25464255737752</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.757863436182527</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.85973285602146</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.598090758860256</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.18609592736725</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.384858191164943</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">41.064599018224506</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.488801832685617</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.07620657917458</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.505583463699885</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.47776159424464</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.747898324871587</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.677589189858907</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.240704652426406</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.334669962044167</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.764855625681148</measure>
+        </holon>
+    </measures>
+    <measures comId="41" timestamp="610">
+        <holon id="0">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">64.87516078956466</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.56942674069148</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.13205885898522</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.53353260477449</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">55.25464255737752</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.757863436182527</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.85973285602146</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.678472607088205</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.18609592736725</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.384858191164943</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">41.064599018224506</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.488801832685617</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.07620657917458</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.505583463699885</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.47776159424464</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.747898324871587</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.677589189858907</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.240704652426406</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.334669962044167</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.764855625681148</measure>
+        </holon>
+    </measures>
+    <measures comId="27" timestamp="667">
+        <holon id="0">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">64.87516078956466</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.56942674069148</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.13205885898522</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.53353260477449</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">55.25464255737752</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.757863436182527</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.85973285602146</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.678472607088205</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.18609592736725</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.384858191164943</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">41.064599018224506</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.488801832685617</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">35.675153363043556</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.466540374920919</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">28.18615516513385</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.902912814499109</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.35950570000387</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.079788962223634</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.955331399319974</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.611729880163432</measure>
+        </holon>
+    </measures>
+    <measures comId="11" timestamp="674">
+        <holon id="0">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">64.87516078956466</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.56942674069148</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.13205885898522</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.53353260477449</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">55.25464255737752</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.757863436182527</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">50.85973285602146</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.678472607088205</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">51.18609592736725</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.384858191164943</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">41.07363737211757</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.40563624618422</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">35.675153363043556</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.466540374920919</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">28.18615516513385</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.1899494936611665</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.35950570000387</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.079788962223634</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">23.462776166099975</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.611729880163432</measure>
+        </holon>
+    </measures>
+    <measures comId="26" timestamp="757">
+        <holon id="0">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">64.86129586528601</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.524848031920403</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.59472591770331</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.557759352946988</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">54.37474303231939</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.610320950245157</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.49541817832581</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.267545399524858</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">53.17457121170828</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.439896504778762</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">41.395547377077804</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.252510500666505</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">36.92648811904748</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">5.4813567155273875</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">29.2943807772043</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.656163110838949</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.231080459820816</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">3.9571109659736687</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.28271799986322</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">3.849062925815339</measure>
+        </holon>
+    </measures>
+    <measures comId="36" timestamp="768">
+        <holon id="0">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">64.86129586528601</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.524848031920403</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.59472591770331</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.557759352946988</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">54.37474303231939</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.610320950245157</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">48.49541817832581</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.267545399524858</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">53.17457121170828</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.439896504778762</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">40.979135236783335</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.0525105006665045</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">34.6381656172023</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.782882677930164</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">29.2943807772043</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.656163110838949</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">26.231080459820816</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">3.9571109659736687</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">24.28271799986322</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">3.849062925815339</measure>
+        </holon>
+    </measures>
+    <measures comId="25" timestamp="943">
+        <holon id="0">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">69.94106176121517</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.98633155120695</measure>
+        </holon>
+        <holon id="1">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.87285499489026</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.096823891540462</measure>
+        </holon>
+        <holon id="2">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">54.37474303231939</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">8.610320950245157</measure>
+        </holon>
+        <holon id="3">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">49.152691164230895</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">7.09895509905176</measure>
+        </holon>
+        <holon id="4">
+            <measure name="NumberOfCommissions">4.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">53.17457121170828</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">9.439896504778762</measure>
+        </holon>
+        <holon id="5">
+            <measure name="NumberOfCommissions">5.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">43.82657793621938</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">6.045403719479957</measure>
+        </holon>
+        <holon id="6">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">31.30442483765223</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.3579643851307655</measure>
+        </holon>
+        <holon id="7">
+            <measure name="NumberOfCommissions">7.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">29.608207880592577</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.018180652838165</measure>
+        </holon>
+        <holon id="8">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">28.647401333522918</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">4.060664356566942</measure>
+        </holon>
+        <holon id="9">
+            <measure name="NumberOfCommissions">6.0</measure>
+            <measure name="AverageDistanceFromCurLocationToBaseForAllCommissions">25.415698548382156</measure>
+            <measure name="AverageDistPerCommissionBeforeChange">3.5669658585541293</measure>
+        </holon>
+    </measures>
+</simulation_measures>

@@ -4,8 +4,8 @@ abstract class Page {
 	private $meta_title = "Web Dispatch Rider | AGH Kraków 2012";
 	private $top_title = "Web Dispatch Rider";
 	private $page_title;
-	public $uploads_dir = 'uploads';
-	public $ready_dir = 'ready';
+	public static $uploads_dir = 'uploads';
+	public static $ready_dir = 'ready';
 	private $menu = array();
 	private $style = array();
 	private $script = array();
@@ -17,10 +17,12 @@ abstract class Page {
 		$this->addStyle('main');
 		
 		// js
-		$this->addScript('main');	
+		$this->addScript('jquery');
+		$this->addScript('xmlResults2text');
+		$this->addScript('main');
 		
-		$this->addMenuElement('Zadania obliczone', 'ready.php', $this->countDirs($this->ready_dir));
-		$this->addMenuElement('W trakcie', 'uploads.php', $this->countDirs($this->uploads_dir));
+		$this->addMenuElement('Zadania obliczone', 'ready.php', $this->countDirs(self::$ready_dir));
+		$this->addMenuElement('W trakcie', 'uploads.php', $this->countDirs(self::$uploads_dir));
 		//$this->addMenuElement('Zadania nieudane', '#', 1);
 		$this->addMenuElement('Dodaj nowe', 'add_task.php');
 	}
@@ -63,19 +65,18 @@ abstract class Page {
 		echo "\n</div>";		
 	}
 	
-	private function showMeta() {
-		echo "<head>\n";
-		echo "<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />\n";
-		echo "<title>$this->meta_title</title>\n";
-		foreach($this->style as $element)
-			echo "<link rel='stylesheet' type='text/css' href='./css/$element.css' />";
-        echo "<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js'></script>\n";
-		foreach($this->script as $element)
-			echo "<script type='text/javascript' src='./js/$element.js'></script>";
+    private function showMeta() {
+        echo "<head>\n";
+        echo "<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />\n";
+        echo "<title>$this->meta_title</title>\n";
+        foreach($this->style as $element)
+                echo "<link rel='stylesheet' type='text/css' href='./css/$element.css' />";
 
-				
-		echo "</head>";
-	}
+        echo "<script type='text/javascript' src='./js/jquery.js'></script>\n";
+        foreach($this->script as $element)
+                echo "<script type='text/javascript' src='./js/$element.js'></script>";
+        echo "</head>";
+    }
 	
 	abstract function display();
 	

@@ -6,7 +6,7 @@ class PageImpl extends Page {
 		$content = '';		
 		if(isset($_POST['task']) && trim($_POST['task']) != null) {
 			$task = $_POST['task'];
-			$dir = $this->uploads_dir.'/'.$task;
+			$dir = self::$uploads_dir.'/'.$task;
 			// trucks
 			$file = fopen("$dir/trucks.properties", 'w+') or die('Nie moge otworzyć pliku');
 			if(trim($_POST['trucks']) != '')
@@ -27,17 +27,16 @@ class PageImpl extends Page {
 			if(trim($_POST['holons']) != '')
 				fwrite($file, $_POST['holons']);
 			fclose($file);
-			// configuration 
-			/*
+			// configuration
 			$file = fopen("$dir/configuration.xml", 'w+') or die('Nie moge otworzyć pliku');
 			if(trim($_POST['configuration']) != '')
 				fwrite($file, $_POST['configuration']);
 			fclose($file);
-			*/
+			
 			$content .= 'Edycja zakończona pomyślnie';
 			
 		} else if(isset($_GET['del']) && trim($_GET['del']) != null) {
-			$dir = $this->uploads_dir;
+			$dir = self::$uploads_dir;
 			$name = $_GET['del'];
 			if(file_exists("$dir/$name")) {
 				exec("rm -rf $dir/$name");
@@ -51,19 +50,19 @@ class PageImpl extends Page {
 			$content .= $this->input('task', null, array(
 				'type' => 'hidden', 'value' => $task
 			));
-			$fileContent = file_get_contents($this->uploads_dir.'/'.$task.'/trucks.properties');
+			$fileContent = file_get_contents(self::$uploads_dir.'/'.$task.'/trucks.properties');
 			$content .= $this->textarea('trucks', 'Ciągniki', $fileContent);
-			$fileContent = file_get_contents($this->uploads_dir.'/'.$task.'/trailers.properties');
+			$fileContent = file_get_contents(self::$uploads_dir.'/'.$task.'/trailers.properties');
 			$content .= $this->textarea('trailers', 'Naczepy', $fileContent);
-			$fileContent = file_get_contents($this->uploads_dir.'/'.$task.'/drivers.properties');
+			$fileContent = file_get_contents(self::$uploads_dir.'/'.$task.'/drivers.properties');
 			$content .= $this->textarea('drivers', 'Kierowcy', $fileContent);
-			$fileContent = file_get_contents($this->uploads_dir.'/'.$task.'/holons.properties');
+			$fileContent = file_get_contents(self::$uploads_dir.'/'.$task.'/holons.properties');
 			$content .= $this->textarea('holons', 'Holony', $fileContent);
-			// $fileContent = file_get_contents($this->uploads_dir.'/'.$task.'/configuration.xml');
-			// $content .= $this->textarea('configuration', 'Konfiguracja', $fileContent);
+			$fileContent = file_get_contents(self::$uploads_dir.'/'.$task.'/configuration.xml');
+			$content .= $this->textarea('configuration', 'Konfiguracja', $fileContent);
 			$content .= '<input type="submit" value="Edycja"></form>';
 		} else {
-			$dir = $this->uploads_dir;
+			$dir = self::$uploads_dir;
 			$output;
 			exec("ls -lt $dir", $output);
 			$list = array();
