@@ -51,5 +51,5 @@ class PageImpl extends Page {
 $container = isset($_GET['del']);
 
 $page = new PageImpl("Gotowe");
-$page->showPage($container);
+$page->showPage($container, true);
 ?>

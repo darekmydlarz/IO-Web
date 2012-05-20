@@ -1,4 +1,4 @@
-$(document).ready(function(){
+jQuery.fn.parseXml = function(){
     $.ajax({
         type: "GET",
         url: "./ready/sample0/results.xml",
@@ -24,19 +24,9 @@ $(document).ready(function(){
                     $('<td></td>').html(value).appendTo('#com_' + comId + ' #holon_'+holonId);
                     
                 });
-                
-                
-                
-//                $('<div class="holon" id="holon_' + holonId +'" style="display: none"></div>').html('<h2>Holon ' + holonId + '</h2>').appendTo('#com_'+comId);
-//                $(this).find('measure').each(function(){
-//                    // convert BigCamelCase to 'Big Camel Case'
-//                    var name = $(this).attr('name').replace(/([a-z])([A-Z])/g, '$1 $2');
-//                    var value = $(this).text();
-//                    $('<div class="measure"></div>').html(name + ': ' + value).appendTo('#com_'+comId + ' #holon_'+holonId);
-//                });
             });         
             
         });
         }
     });
-});
+};
