@@ -2,12 +2,12 @@
 \section{Marzec 2012}
 
 \subsection{12 marca}
-Tego dnia po wcześniejszym zapoznaniu się z proponowanymi przed prowadzących tematami ostatecznie
-dokonaliśmy wyboru tematu GUI Webowego do systemu do planowania transportu (Dispatch Rider).
-Na następne zajęcia zobowiązaliśmy się zapoznać lepiej z dotychczas istniejącym systemem.
+Po wcześniejszym zapoznaniu się z zaproponowanymi przed prowadzących tematami ostatecznie
+dokonaliśmy wyboru tematu: "GUI Webow dla systemu do planowania transportu (Dispatch Rider)".
+Na następne zajęcia zobowiązaliśmy się zapoznać z zasadami działania oraz architekturą dotychczas istniejącego systemem.
 
 \subsection{19 marca}
-Tak jak zapowiadaliśmy na ten dzień przygotowaliśmy raport dotyczący istniejącego systemu. Jego treść prezentujemy poniżej.
+Na te zajęcia przygotowaliśmy raport dotyczący istniejącego systemu. Jego treść prezentujemy poniżej.
 \subsubsection{Ustalenia}
 \begin{enumerate}
 \item Otrzymany projekt nie zachowuje się deterministycznie pod różnymi platformami. Pod Linuxem (Ubuntu) uruchomione zadanie nie oblicza się, natomiast pod Windowsem (7) GUI uruchamia się niedeterministycznie. Nie jesteśmy w stanie określić co powoduje owe problemy, jednakże mogą one uniemożliwić rozszerzenie funkcjonalności GUI. Faktem istotnym jest również to, że aplet zamiast uruchamiać się w przeglądarce, raportuje błąd i nie uruchamia się.
@@ -29,13 +29,13 @@ Prowadzący zaakceptowali nasz pomysł stworzenia GUI Webowego jako aplikacji we
 w tego typu projektach takich jak: PHP, HTML/CSS i JavaScript.
 
 \subsection{26 marca}
-Na kolejne zajęcia podjęliśmy próbę oceny dostępnych narzędzi JavaScriptowych do wizualizacji grafów na stronie www.
-W naszym teście wygrał \texttt{JavaScript InfoVis Toolkit}. Więcej na ten temat w dokumentacji projektu.
+Na te zajęcia podjęliśmy się próby oceny dostępnych narzędzi JavaScriptowych umożliwiających wizualizację grafów na stronie www.
+W naszym teście najlepsze wyniki uzyskał \texttt{JavaScript InfoVis Toolkit}. Więcej na ten temat w dokumentacji projektu.
 
 
 \section{Kwiecień 2012}
 \subsection{2 kwietnia}
-Na pierwsze kwietniowe zajęcia przeanalizowaliśmy strukturę pliku wyjściowego Dispatch Ridera, na podstawie którego będziemy
+Na pierwsze kwietniowe zajęcia dokonaliśmy analizy struktury pliku wyjściowego Dispatch Ridera, na podstawie którego będziemy
 chcieli przedstawić użytkownikowi wyniki działania całego systemu. Podjęliśmy decyzję, iż wyjściowy plik w formacie \texttt{XML}
 będziemy parsować do formatu \texttt{JSON} akceptowanego przez wybraną przez nas bibliotekę graficzną za pomocą \texttt{jQuery}.
 Więcej na ten temat w dokumentacji projektu.
@@ -46,29 +46,27 @@ funkcjonalnych i niefunkcjonalnych dotyczących projektu oraz stworzyliśmy wst�
 w formie plików graficznych. Wymagania oraz projekt znajdują się w dokumentacji projektu.
 
 \subsection{23 kwietnia}
-Na następne spotkanie przedstawiliśmy prowadzącym wstępny szkielet aplikacji webowej (działający kod). Dodatkowo zobowiązaliśmy się
+23 kwietnia przedstawiliśmy prowadzącym wstępny szkielet aplikacji webowej (działający kod). Dodatkowo zobowiązaliśmy się
 do rozpoczęcia prac nad \texttt{schedulerem} -- skryptem w Javie mającym za zadanie zarządzać ładowanymi do systemu danymi.
-\texttt{Scheduler} ma przekierować pliki wrzucane przez użytkownika w odpowiedniej kolejności do Dispatch Ridera, oraz udostępniać
-obliczone wyniki do aplikacji internetowej, która to wyświetli je zarówno w formie tekstowej jak i graficznej (w postaci grafu).
+\texttt{Scheduler} ma za zadanie przekierować pliki wrzucane przez użytkownika w odpowiedniej kolejności do Dispatch Ridera, oraz udostępniać
+obliczone wyniki aplikacji internetowej, która to wyświetli je zarówno w formie tekstowej jak i graficznej (w postaci grafu).
 
 \section{Maj 2012}
 \subsection{7 maja}
 Tym razem, ponownie po 2 tygodniach przerwy (z okazji świąt majowych) pokazaliśmy część aplikacji internetowej odpowiedzialnej za 
-upload plików przez użytkownika do systemu. Jednocześnie mieliśmy już w tym momencie wstępnie działający scheduler monitorujący
+upload plików przez użytkownika do systemu. Jednocześnie w tym momencie posiadaliśmy pierwszą wersję działającego schedulera, monitorującego
 zdarzenia dziejące się w systemie.
 
 \subsection{14 maja}
-W tym momencie aplikacja internetowa pozwala na edycję danych wprowadzonych do systemu przez użytkownika.
-Niestety pojawiły się pewne problemy ze \texttt{schedulerem}, gdyż okazało się, iż uruchamia on
-Dispatch Rider'a, który przetwarza zadanie, niestety nie generując wyników do plików wyjściowych.
+W tym momencie aplikacja internetowa pozwala na edycję danych wprowadzonych do systemu przez użytkownika. 
+Niestety, napotkaliśmy problemy związane z uruchomieniem DR z linii poleceń, przy pomocy \texttt{Schedulera}, w sytuacji gdy plik configuration.xml znajduje się w innej lokalizacji niz katalog główny programu. Problem ten rozwiazaliśmy poprzez implementację mechanizmu kopiowania pliku konfiguracyjnego przed uruchomieniem.
 
 \subsection{21 maja}
 Aplikacja internetowa została wzbogacona w możliwość wyświetlania wyników Dispatch Ridera w formacie tekstowym.
 Zostało to zrealizowane przy wykorzystaniu \texttt{jQuery} i  \texttt{AJAX-a}. Dane są parsowane i wyświetlane w formie tabel
-z podziałem dla każdego zlecenia. W dalszym czasie próbujemy powalczyć z problemami związanymi z uruchamianiem Dispatch Ridera
-poleceniem linii komend uruchamianym przez \texttt{schedulera}.
+z podziałem dla każdego zlecenia. Kolejnym napotkanym problemem związanym z działaniem DR jest brak plików wynikowych podczas uruchamiania programu za pomocą \texttt{schedulera}. Uruchomienie programu powoduje włączenie się DR, wyświetlenie wykresu i listy jednostek obliczeniowych, lecz po zakończeniu działania nie są generowane pliki wynikowe. Ten sam plik configuration.xml wybrany w GUI po przetworzeniu w programie powoduje stworzenie plików wynikowych. 
 
 \subsection{28 maja}
-Na te zajęcia przygotowaliśmy ten właśnie dokument. Uznaliśmy, iż powinniśmy nieco oczyścić istniejącą do tej pory dokumentację,
-w której mieszały się informacje dotyczące projektu oraz przebiegu prac nad nim. Dodatkowo skontaktowaliśmy z poprzednimi
-autorami systemu celem ustalenia informacji na temat uruchamiania Dispatch Ridera poleceniem z linii komend.
+Na te zajęcia przygotowaliśmy dokumentację przebiegu projektu. Uznaliśmy, iż powinniśmy nieco  istniejącą do tej pory dokumentację,
+w której przeplatały się informacje dotyczące projektu oraz przebiegu prac nad nim. Dodatkowo skontaktowaliśmy z poprzednimi
+autorami systemu celem wyjaśnienia problemów które napotkaliśmy podczas prac Schedulerem.
