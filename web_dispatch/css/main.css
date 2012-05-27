@@ -143,17 +143,16 @@ form input {
 	padding: 5px;
 	background: #F3F3F3;
 	font-size: inherit;
+	width: 520px;
 }
 
 form input[type="text"] {
 	font-family: inherit;
-	width: 480px;
 	display: table;
 	padding: 10px;
 }
 
 form input[type="file"] {
-	width: 480px;
 	display: table;
 	font-size: inherit;
 	padding: 10px;
@@ -190,7 +189,7 @@ p.error input {
 p.message {
 	font-size: 0.8em;
 	color: #9E1810;
-	padding-left: 225px;
+	padding-left: 265px;
 }
 
 /******************************************************** TASKS-LIST */
