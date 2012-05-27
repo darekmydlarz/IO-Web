@@ -1,0 +1,32 @@
+\lstset{language=Java}
+\chapter{Oprogramowanie schedulera}
+W celu obsługi kolejnych zadań przesyłanych do systemu, powstał szkielet oprogramowania zarządzającego kolejkowaniem oraz uruchamianiem Dispatch Ridera z kolejnymi zestawami danych.
+
+
+Skrypt przeszukuje podany w parametrach startowych katalog systemu plików, poszukując nowo dodanych zestawów danych. W przypadku gdy taki zestaw się pojawia, umieszcza plik 'configuration.xml' zestawu w kolejce zadań do wykonania.
+
+
+Następnie scheduler sprawdza czy pojawiły się pliki wynikowe działania programu, co jest jednoznaczne z zakonczeniem wykonywania danego zadania. Jeśli pliki znajdują się w katalogu wynikowym, wówczas uruchamiane jest kolejne zadanie z kolejki. 
+
+
+Kwestią istotną jest fakt, iż aby system zadziałał, plik \texttt{configuration.xml} musi znajdować się w katalogu głównym Dispatch Ridera. Ów wymóg jest podyktowany zapewne założeniem projektowym lub błędem DR. W związku z tym, plik ten dla każdego nowo uruchamianego zadania jest kopiowany do głównego katalogu przed uruchomienim procesu. 
+
+
+Kwestią pozostałą do uzgodnienia pozostaje w tej chwili struktura katalogów tworzona podczas ładowania plików z danymi do systemu - scheduler działa poprawnie, jednak konieczne jest wypracowanie polityki zarządzania danymi wejściowymi. Dyskusję dotyczącą tego zagadnienia przeprowadzimy podczas tworzenia systemu wczytywania i parsowania danych wejściowych.
+
+
+
+
+\subsubsection{Dodane 25.05.2012: Problem z uzyskaniem wyników działania programu}
+
+Jak pisaliśmy powyżej, do uruchomienia Dispatch Ridera wykorzystujemy skrypt napisany w języku Java. Wykonywane jest następujące polecenie systemowe:
+
+\begin{verbatim}
+command = "java -cp " + mainPath + "/jar/DTP.jar jade.Boot -nomtp
+ TestAgent:dtp.jade.test.TestAgent(" + mainPath +"/configuration.xml)
+ InfoAgent:dtp.jade.info.InfoAgent
+ DistributorAgent:dtp.jade.distributor.DistributorAgent
+ CrisisManagerAgent:dtp.jade.crisismanager.CrisisManagerAgent";
+\end{verbatim}
+
+Niestety program uruchamiany w ten sposób - który jest sposobem poprawnym, gdyż powoduje wyświetlenie okna spisu e-unitów oraz wykresu - nie generuje w efekcie żadnych wyników. Pliki które powinny pojawić się w katalogu wyjściowym nie są wogóle tworzone. Problem z całą pewnością leży w sposobie uruchamiania, ponieważ ten sam plik configuration.xml uruchomiony przy pomocy oryginalnego GUI powoduje generowanie wyników. W celu wyjaśnienia tej sytuacji skontaktowaliśmy się z autorami oprogramowania.

@@ -1,0 +1,74 @@
+\chapter{Historia prac}
+\section{Marzec 2012}
+
+\subsection{12 marca}
+Tego dnia po wcześniejszym zapoznaniu się z proponowanymi przed prowadzących tematami ostatecznie
+dokonaliśmy wyboru tematu GUI Webowego do systemu do planowania transportu (Dispatch Rider).
+Na następne zajęcia zobowiązaliśmy się zapoznać lepiej z dotychczas istniejącym systemem.
+
+\subsection{19 marca}
+Tak jak zapowiadaliśmy na ten dzień przygotowaliśmy raport dotyczący istniejącego systemu. Jego treść prezentujemy poniżej.
+\subsubsection{Ustalenia}
+\begin{enumerate}
+\item Otrzymany projekt nie zachowuje się deterministycznie pod różnymi platformami. Pod Linuxem (Ubuntu) uruchomione zadanie nie oblicza się, natomiast pod Windowsem (7) GUI uruchamia się niedeterministycznie. Nie jesteśmy w stanie określić co powoduje owe problemy, jednakże mogą one uniemożliwić rozszerzenie funkcjonalności GUI. Faktem istotnym jest również to, że aplet zamiast uruchamiać się w przeglądarce, raportuje błąd i nie uruchamia się.
+\item W czasie analizy szczególną uwagę przyłożyliśmy do opisu problemów z którymi spotkały się zespoły wcześniej realizujące projekty. Z ich uwag wynika iż DispatchRider posiada błędy, które w szczególności mogą skutkować brakiem pliku wynikowego, nieuwzględnieniem sieci transportowej, nieuwzględnieniem czasu utworzenia holonu.
+\item Dane wykorzystywane do wizualizacji wyników oraz tworzenia statystyk, są przekazywane za pośrednictwem pliku wyjściowego generowanego przez DR. Otwiera to możliwość zmiany koncepcji tworzenia GUI, ponieważ moduł nie jest w bezpośredni sposób powiązany z kodem DispatchRidera. Jednocześnie powoduje to konieczność przemyślanego zaprojektowania metody przekazywania owych danych do GUI.
+\end{enumerate}
+\subsubsection{Wnioski}
+\begin{enumerate}
+\item W świetle wyżej zarysowanych problemów, chcielibyśmy zaproponować pewną zmianę koncepcji tworzenia graficznego interfejsu użytkownika.
+\item Chcielibyśmy rozwiązać problemy z uruchamieniem GUI na różnych systemach. Mimo iż aplety Java powinny uruchamiać się bezproblemowo, empirycznie sprawdziliśmy że GUI nie działa prawidłowo na poszczególnych systemach operacyjnych. Aby zapobiec tym problemom, chcielibyśmy stworzyć nową aplikację webową i wykorzystać przy tym takie technologie jak: HTML5, CSS, JavaScript. Z naszego doświadczenia wynika iż dobrze zaprojektowane z użyciem w.w. GUI działać będzie na każdym systemie i każdej przeglądarce. Powodem dla którego preferujemy akurat te technologie, a nie aplety Javy, jest ich nowoczesność - pragniemy wykorzystać HTML5, zapewniający olbrzymie możliwości, choćby w dziedzinie modelowania i prezentacji grafów. Z przykrością musimy stwierdzić, iż dotychczasowe sposoby wizualizacji grafów w interfejsie DispatchRidera charakteryzowały się pewnym brakiem czytelności, oraz interaktywności.
+\item Budowana przez nas aplikacja podobnie jak dotychczasowe projekty GUI, korzystałaby z plików wyjściowych DispatchRidera. Oddzielenie interfejsu użytkownika od głównego ciała programu pozwala na komfortową pracę, bez konieczności zagłębiania się w kod głównego programu i jego modyfikacji, co mogłoby nawet uniemożliwić jakiekolwiek widoczne postępy w rozwijaniu przez nas dotychczasowego GUI.
+\item Projektując GUI z użyciem naszych technologii, chcielibyśmy odtworzyć zaimplementowane w wersji z apletami Javy funkcjonalności, mając jednak stuprocentową pewność że w przeciwieństwie do niej, nasz interfejs będzie w pełni użytkowalny, i będzie możliwe jego uruchomienie na każdym systemie i przeglądarce obsługującej HTML5.
+\item Chcielibyśmy skupić się zwłaszcza na problemie prezentacji tras, zwracając dużą uwagę na ergonomię działania programu. Użycie w.w. technologii umożliwia tworzenie interaktywnych prezentacji grafu na które kładziemy dużą uwagę, oraz umożliwia właściwie nieograniczone możliwości modyfikowania ich, zmiany perspektywy oraz ilości przekazywanych informacji. W chwili obecnej, interfejs graficzny jest wyjątkowo nieergonomiczny, co wynika choćby z faktu iż jego uruchomienie jest czynnością niedeterministyczną. Mamy nadzieję że nasz pomysł warstwy prezentacji spowoduje jakościową zmianę w sposobie obsługi systemu.
+\item Naszym zdaniem, kontynuacja istniejących implementacji graficznego interfejsu może przerodzić się w klasyczny marszu ku klęsce. Aby temu zapobiec, postulujemy zmianę koncepcji tworzenia GUI i zbudowanie podwalin dobrze zaimplementowanego, udokumentowanego, łatwego w dalszym rozwoju, a przede wszystkim działającego GUI.
+\end{enumerate}
+\vfill \hfill \newpage
+\subsubsection{Rezultat spotkania z prowadzącymi}
+Prowadzący zaakceptowali nasz pomysł stworzenia GUI Webowego jako aplikacji webowej z wykorzystaniem typowych technik wykorzystywanych
+w tego typu projektach takich jak: PHP, HTML/CSS i JavaScript.
+
+\subsection{26 marca}
+Na kolejne zajęcia podjęliśmy próbę oceny dostępnych narzędzi JavaScriptowych do wizualizacji grafów na stronie www.
+W naszym teście wygrał \texttt{JavaScript InfoVis Toolkit}. Więcej na ten temat w dokumentacji projektu.
+
+
+\section{Kwiecień 2012}
+\subsection{2 kwietnia}
+Na pierwsze kwietniowe zajęcia przeanalizowaliśmy strukturę pliku wyjściowego Dispatch Ridera, na podstawie którego będziemy
+chcieli przedstawić użytkownikowi wyniki działania całego systemu. Podjęliśmy decyzję, iż wyjściowy plik w formacie \texttt{XML}
+będziemy parsować do formatu \texttt{JSON} akceptowanego przez wybraną przez nas bibliotekę graficzną za pomocą \texttt{jQuery}.
+Więcej na ten temat w dokumentacji projektu.
+
+\subsection{16 kwietnia}
+Kolejne zajęcia z powodu przerwy świątecznej odbyły się po 2 tygodniach. Tym razem przygotowaliśmy spis wymagań
+funkcjonalnych i niefunkcjonalnych dotyczących projektu oraz stworzyliśmy wstępny projekt wyglądu aplikacji internetowej
+w formie plików graficznych. Wymagania oraz projekt znajdują się w dokumentacji projektu.
+
+\subsection{23 kwietnia}
+Na następne spotkanie przedstawiliśmy prowadzącym wstępny szkielet aplikacji webowej (działający kod). Dodatkowo zobowiązaliśmy się
+do rozpoczęcia prac nad \texttt{schedulerem} -- skryptem w Javie mającym za zadanie zarządzać ładowanymi do systemu danymi.
+\texttt{Scheduler} ma przekierować pliki wrzucane przez użytkownika w odpowiedniej kolejności do Dispatch Ridera, oraz udostępniać
+obliczone wyniki do aplikacji internetowej, która to wyświetli je zarówno w formie tekstowej jak i graficznej (w postaci grafu).
+
+\section{Maj 2012}
+\subsection{7 maja}
+Tym razem, ponownie po 2 tygodniach przerwy (z okazji świąt majowych) pokazaliśmy część aplikacji internetowej odpowiedzialnej za 
+upload plików przez użytkownika do systemu. Jednocześnie mieliśmy już w tym momencie wstępnie działający scheduler monitorujący
+zdarzenia dziejące się w systemie.
+
+\subsection{14 maja}
+W tym momencie aplikacja internetowa pozwala na edycję danych wprowadzonych do systemu przez użytkownika.
+Niestety pojawiły się pewne problemy ze \texttt{schedulerem}, gdyż okazało się, iż uruchamia on
+Dispatch Rider'a, który przetwarza zadanie, niestety nie generując wyników do plików wyjściowych.
+
+\subsection{21 maja}
+Aplikacja internetowa została wzbogacona w możliwość wyświetlania wyników Dispatch Ridera w formacie tekstowym.
+Zostało to zrealizowane przy wykorzystaniu \texttt{jQuery} i  \texttt{AJAX-a}. Dane są parsowane i wyświetlane w formie tabel
+z podziałem dla każdego zlecenia. W dalszym czasie próbujemy powalczyć z problemami związanymi z uruchamianiem Dispatch Ridera
+poleceniem linii komend uruchamianym przez \texttt{schedulera}.
+
+\subsection{28 maja}
+Na te zajęcia przygotowaliśmy ten właśnie dokument. Uznaliśmy, iż powinniśmy nieco oczyścić istniejącą do tej pory dokumentację,
+w której mieszały się informacje dotyczące projektu oraz przebiegu prac nad nim. Dodatkowo skontaktowaliśmy z poprzednimi
+autorami systemu celem ustalenia informacji na temat uruchamiania Dispatch Ridera poleceniem z linii komend.
