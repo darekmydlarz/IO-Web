@@ -1,3 +1,4 @@
+\lstset{language=Java}
 \chapter{Oprogramowanie schedulera}
 W celu obsługi kolejnych zadań przesyłanych do systemu, powstał szkielet oprogramowania zarządzającego kolejkowaniem oraz uruchamianiem Dispatch Ridera z kolejnymi zestawami danych.
 
@@ -12,3 +13,19 @@ Kwestią istotną jest fakt, iż aby system zadziałał, plik 'configuration.xml
 
 
 Kwestią pozostałą do uzgodnienia pozostaje w tej chwili struktura katalogów tworzona podczas ładowania plików z danymi do systemu - scheduler działa poprawnie, jednak konieczne jest wypracowanie polityki zarządzania danymi wejściowymi. Dyskusję dotyczącą tego zagadnienia przeprowadzimy podczas tworzenia systemu wczytywania i parsowania danych wejściowych.
+
+
+Dodane 25.05.2012
+
+\textbf{Problem z uzyskaniem wyników działania programu}
+Jak pisaliśmy powyżej, do uruchomienia Dispatch Ridera wykorzystujemy napisany w jeżyku Java skrypt. Wykonywane jest następujące polecenie systemowe:
+
+\begin{lstlisting}
+command = "java -cp " + mainPath + "/jar/DTP.jar jade.Boot -nomtp
+ TestAgent:dtp.jade.test.TestAgent(" + mainPath +"/configuration.xml)
+ InfoAgent:dtp.jade.info.InfoAgent
+ DistributorAgent:dtp.jade.distributor.DistributorAgent
+ CrisisManagerAgent:dtp.jade.crisismanager.CrisisManagerAgent";
+\end{lstlisting}
+
+Niestety program uruchamiany w ten sposób - który jest sposobem poprawnym, gdyż powoduje wyświetlenie okna spisu e-unitów oraz wykresu - nie generuje w efekcie żadnych wyników. Pliki które powinny pojawić się w katalogu wyjściowym nie są wogóle tworzone. Problem z całą pewnością leży w sposobie uruchamiania, ponieważ ten sam plik configuration.xml uruchomiony przy pomocy oryginalnego GUI powoduje generowanie wyników. W celu wyjaśnienia tej sytuacji skontaktowaliśmy się z autorami oprogramowania.
