@@ -9,7 +9,7 @@ abstract class Page {
 	private $menu = array();
 	private $style = array();
 	private $script = array();
-        private $parseXML = false;
+	private $parseXML = false;
 	
 	public function __construct($page_title, $commission_table = false) {
 		$this->page_title = $page_title;
@@ -21,7 +21,7 @@ abstract class Page {
 		$this->addScript('jquery');
 		$this->addScript('xmlResults2text');
 		$this->addScript('main');
-                $this->parseXML = $commission_table;
+		$this->parseXML = $commission_table;
 		
 		$this->addMenuElement('Zadania obliczone', 'ready.php', $this->countDirs(self::$ready_dir));
 		$this->addMenuElement('W trakcie', 'uploads.php', $this->countDirs(self::$uploads_dir));

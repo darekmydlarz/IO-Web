@@ -8,7 +8,6 @@ class PageImpl extends Page {
 		if(isset($_GET['task']) && trim($_GET['task']) != '' && file_exists($dir.'/'.$_GET['task'].'/info.txt')) {
 			$task = $_POST['task'];
 			$resultsXMLFilePath = $dir.'/'.$_GET['task'].'/results.xml';
-			//var_dump(file_get_contents($resultsXMLFilePath));
 		} else {
 			$content .= 'Coś poszło nie tak. Spróbuj ponownie!';
 			
