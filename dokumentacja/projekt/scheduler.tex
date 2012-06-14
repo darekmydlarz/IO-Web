@@ -6,7 +6,7 @@ W celu obsługi kolejnych zadań przesyłanych do systemu, powstał szkielet opr
 Skrypt przeszukuje podany w parametrach startowych katalog systemu plików, poszukując nowo dodanych zestawów danych. W przypadku gdy taki zestaw się pojawia, umieszcza plik 'configuration.xml' zestawu w kolejce zadań do wykonania.
 
 
-Następnie scheduler sprawdza czy pojawiły się pliki wynikowe działania programu, co jest jednoznaczne z zakonczeniem wykonywania danego zadania. Jeśli pliki znajdują się w katalogu wynikowym, wówczas uruchamiane jest kolejne zadanie z kolejki. 
+Następnie scheduler sprawdza czy pojawiły się pliki wynikowe działania programu, co jest jednoznaczne z zakończeniem wykonywania danego zadania. Jeśli pliki znajdują się w katalogu wynikowym, wówczas uruchamiane jest kolejne zadanie z kolejki. 
 
 
 Kwestią istotną jest fakt, iż aby system zadziałał, plik \texttt{configuration.xml} musi znajdować się w katalogu głównym Dispatch Ridera. Ów wymóg jest podyktowany zapewne założeniem projektowym lub błędem DR. W związku z tym, plik ten dla każdego nowo uruchamianego zadania jest kopiowany do głównego katalogu przed uruchomienim procesu. 
@@ -30,3 +30,9 @@ command = "java -cp " + mainPath + "/jar/DTP.jar jade.Boot -nomtp
 \end{verbatim}
 
 Niestety program uruchamiany w ten sposób - który jest sposobem poprawnym, gdyż powoduje wyświetlenie okna spisu e-unitów oraz wykresu - nie generuje w efekcie żadnych wyników. Pliki które powinny pojawić się w katalogu wyjściowym nie są wogóle tworzone. Problem z całą pewnością leży w sposobie uruchamiania, ponieważ ten sam plik configuration.xml uruchomiony przy pomocy oryginalnego GUI powoduje generowanie wyników. W celu wyjaśnienia tej sytuacji skontaktowaliśmy się z autorami oprogramowania.
+
+\subsubsection{Dodane 14.06.2012: Problemy z uruchomieniem DR przy pomocy Schedulera - ciąg dalszy}
+
+W celu rozwiązania problemów z uruchamianiem DR nawiązaliśmy kontakt z autorem oprogramowania - Sebastianem Pisarskim. Niestety, nie był on w stanie podać rozwiązania naszego problemu ani sposobu uruchamiania DR z linii poleceń systemu (z podaniem ścieżki do pliku configuration.xml). Co więcej, w chwili obecnej nie jesteśmy nawet w stanie uruchomić DR, mimo iż we wcześniejszej wersji ( z marca br. ) było to możliwe.
+
+Podsumowując prace nad oprogramowaniem Schedulera - mimo poprawności stworzonego przez nas kodu, obsługującego operacje na systemie plików, nie udało nam się uruchomić tej funkcjonalności. Przeszkodą nie do pokonania okazało się w tym przypadku uruchomienie oprogramowania DR z linii komend - sposób wykorzystywany przez autorów wcześniej powstałego GUI webowego nie działał, a sam autor Dispatch Ridera nie był w stanie poinformować nas jaki jest poprawny sposób uruchomienia systemu. Również mimo podjętych wielokrotnych prób nie udało nam się doświadczalnie uruchomić programu. Uznajemy że wykorzystaliśmy wszelkie możliwości na poznanie sposobu uruchomienia programu, i bez wypracowania polityki uruchomienia przez autora DR, scheduler nie będzie mógł zadziałać. Problem uruchomienia systemu nie leży po stronie naszego webowego klienta, lecz niestety po stronie samego Dispatch Ridera.

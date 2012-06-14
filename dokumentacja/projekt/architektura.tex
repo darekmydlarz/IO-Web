@@ -24,8 +24,8 @@ Scheduler to osobna aplikacji napisana w Javie służąca do kolejkowania zadań
 przez użytkownika. Skanuje ona zawartość folderów \texttt{uploads} i \texttt{ready} z aplikacji internetowej
 i zarządza ich przesyłaniem do Dispatch Ridera. Scheduler jest więc łącznikiem pomiędzy usługą kliencką,
 a serwerową. W momencie ukończenia przetwarzania problemu przez Dispatch Ridera scheduler przenosi pliki
-wynikowe do odpowiedniego podfolderu katalogu \texttt{ready} i jeśli jakiś problem czeka już w kolejce
-do obliczeń, to przesyła go do Dispatcha.
+wynikowe do odpowiedniego podfolderu katalogu \texttt{ready} i w sytuacji gdy jakiś problem czeka już w kolejce
+do obliczeń, przesyła go do Dispatch Ridera.
 
 \section{Dispatch Rider}
 Serce całego systemu. Aplikacja, która zajmuje się wykonywaniem wszystkich obliczeń związanych z danym problemem.
