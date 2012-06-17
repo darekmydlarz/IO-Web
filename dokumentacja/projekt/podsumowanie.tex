@@ -1,0 +1,53 @@
+\chapter{Podsumowanie}
+
+W pracy nad interfejsem webowym dla systemu planowania transportu Dispatch Rider odnieśliśmy częściowy sukces. Udało nam się spełnić tylko część spośród założonych na początku planowania projektu wymagań funkcjonalnych. 
+Naszym celem było stworzenie lekkiego, możliwie niezależnego od głównego systemu Dispatch Rider, aplikacji klienckiej służącej do uruchamiania DR oraz prezentowania wyników jego pracy. Decyzja o budowie nowej aplikacji klienckiej zamiast rozwijania dotychczas istniejącej była motywowana problemami z uruchomieniem owej już istniejącej wersji webowego gui. Jak wspominaliśmy na początku dokumentacji, nie uruchamiała się ona na część systemów operacyjnych/przeglądarek, a po uruchomieniu i tak nie była w stanie komunikować się z DR.
+W chwili obecnej, bogatsi o doświadczenia z pracy nad aplikacją, możem stwierdzić iż wina leżała nie tylko po stronie aplikacji webowej, ale i samego Dispatch Ridera.
+Program nie posiada wyspecyfikowanych interfejsów umożliwiających komunikację z systemem webowym. W związku z tym, postanowiliśmy operować na systemie plików, w odpowiedni sposób operując danymi wejściowymi oraz wyjściowymi.
+Niestety, nie udało się nam uruchomić z powodzeniem DR z linii poleceń systemu - co jest warunkiem koniecznym w każdej architekturze klient-serwer. Mimo wielokrotnych prób, eksperymentów nie udało nam się wypracować sposobu uruchomienia. Co więcej, sam autor systemu nie był w stanie poinformować nas o poprawnym sposobie uruchamiania systemu. 
+
+Mimo powyższych problemów - które niestety uniemożliwiają nam zaprezentowanie wszystkich funkcjonalności naszej aplikacji - udało nam się spełnić pozostałe zdefiniowane przez nas i zaakceptowane przez prowadzących wymagania funkcjonalne. Aplikacja jest w stanie przesyłać oraz wizualizować dane, i może stać się w pełni użyteczna pod warunkiem naprawienia przez autora systemu DR zasygnalizowanych powyżej błędów.
+\\\\\\
+Analiza spełnienia wymagań funkcjonalnych:
+\\\\
+
+\begin{tabularx}{\textwidth}{ |X|p{2cm}| }
+  \hline
+  Generowanie pliku określającego zlecenia, o składni: ilość-pojazdów ładowność
+prędkość
+ & TAK/NIE  \\
+  \hline
+  Generowanie pliku określającego czas nadchodzenia zleceń, o składni: nr-lini czas-zlecenia  & TAK/NIE  \\
+  \hline
+  Generowanie pliku zawierającego liczbę kierowców & TAK/NIE \\
+  \hline
+  Generowanie pliku określającego parametry ciągników, o składni: moc niezawod-
+ność wygoda zużycie-paliwa typ-zaczepu & TAK/NIE \\
+  \hline
+  Generowanie pliku opisującego parametry naczep o składni: masa pojemność
+typ-ładunku uniwersalność typ-zaczepu & TAK/NIE \\
+  \hline
+  Generowanie pliku opisującego parametry holonów o składni: initialCapacity =
+pojemność-pojazdu mode = tryb bases = ilość-baz eUnitsCount = ilość-jednostek & TAK/NIE \\
+  \hline
+  Generowanie pliku konfiguracyjnego configuration.xml & TAK/NIE \\
+  \hline
+  Kolejkowanie zadań zlecanych systemowi & TAK/NIE \\
+  \hline
+  Uruchamianie systemu Dispatch Rider z użyciem dostarczonych z zewnątrz lub wyge-
+nerowanych plików & TAK/NIE \\
+  \hline
+  Wizualizacja grafu sieci transportowej & TAK/NIE \\
+  \hline
+  Wizualizacja tras pokonanych przez pojazdy & TAK/NIE \\
+  \hline
+  Wyświetlanie informacji o każdym z holonów & TAK/NIE \\
+  \hline
+  Wyświetlanie zbiorczego podsumowania obliczeń zawierającego koszt, dystans, czas, parametry holonów & TAK/NIE \\
+  \hline
+  Wyświetlanie zbiorczego podsumowania obliczeń zawierającego koszt, dystans, czas,
+parametry holonów & TAK/NIE \\
+  \hline 
+  Przechowywanie wyników obliczeń, w celu zaprezentowania na żądanie & TAK/NIE \\
+  \hline
+\end{tabularx}
