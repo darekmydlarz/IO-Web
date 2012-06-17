@@ -40,7 +40,7 @@ abstract class Page {
 		$this->style[] = $href;
 	}
 	
-	private function addScript($href) {
+	public function addScript($href) {
 		$this->script[] = $href;
 	}
 	
@@ -69,12 +69,11 @@ abstract class Page {
 	
     private function showMeta() {
         echo "<head>\n";
+		echo '<meta http-equiv="Access-Control-Allow-Origin" content="*">';
         echo "<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />\n";
         echo "<title>$this->meta_title</title>\n";
         foreach($this->style as $element)
                 echo "<link rel='stylesheet' type='text/css' href='./css/$element.css' />";
-
-        echo "<script type='text/javascript' src='./js/jquery.js'></script>\n";
         foreach($this->script as $element)
                 echo "<script type='text/javascript' src='./js/$element.js'></script>";
         if($this->parseXML)
