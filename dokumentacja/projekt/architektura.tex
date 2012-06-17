@@ -1,9 +1,8 @@
 \chapter{Architektura systemu}
-Architektura budowanego systemu nie będzie skomplikowana. Całość uruchamiana
-będzie na jednej maszynie -- serwerze. Całość, to znaczy: aplikacja internetowa, scheduler
-oraz Dispatch Rider.
+Architektura budowanego systemu nie będzie skomplikowana -- jej prostota zapewniająca przenośność oraz łatwość uruchomienia jest jednym z naszych założeń. Całość, czyli aplikacja internetowa, scheduler oraz Dispatch Rider, uruchamiana
+będzie na jednej maszynie -- serwerze.
 \section{Aplikacja internetowa}
-Aplikacja internetowa to miejsce, w którym użytkownik będzie mógł łączyć się z systemem.
+Aplikacja internetowa to implementacja interfejsu, za pomocą której użytkownik będzie mógł łączyć się z systemem i pracować na nim.
 Zostanie napisana między innymi przy użyciu języka PHP, co oznacza, że na serwerze,
 na którym zostanie uruchomiona aplikacja konieczna będzie jego obsługa.
 
@@ -12,7 +11,7 @@ oraz \texttt{ready}. W pierwszym będą pojawiać się pliki z właściwościami
 użytkownika. Każdy zestaw plików w osobnym folderze o nazwie utworzonej z nazwy wybranej przy uploadzie
 przez użytkownika. Pliki te będzie można edytować z poziomu aplikacji www do momentu, aż nie zostaną
 przejęte przez schedulera do dalszego przetwarzania. Po zakończeniu przetwarzania problemu przez Dispatch
-Ridera, pliki wynikowe wylądują w folderze \texttt{ready}. Aplikacja internetowa będzie przeglądać
+Ridera, pliki wynikowe zostaną zdeponowane w folderze \texttt{ready}. Aplikacja internetowa będzie przeglądać
 każdy z tych katalogów w celu wyświetlenia użytkownikowi informacji na temat przebiegu przetwarzania.
 
 Poza tym w aplikacji internetowej będzie można podejrzeć graf problemu zbudowany w oparciu o pliki
@@ -20,7 +19,7 @@ wynikowe z Dispatch Ridera, co jest głównym celem tego projektu. Graf będzie 
 biblioteki \texttt{JavaScript InfoVis Toolkit}.
 
 \section{Scheduler}
-Scheduler to osobna aplikacji napisana w Javie służąca do kolejkowania zadań przesłanych do systemu
+Scheduler to osobna aplikacja napisana w języku Java służąca do kolejkowania zadań przesłanych do systemu
 przez użytkownika. Skanuje ona zawartość folderów \texttt{uploads} i \texttt{ready} z aplikacji internetowej
 i zarządza ich przesyłaniem do Dispatch Ridera. Scheduler jest więc łącznikiem pomiędzy usługą kliencką,
 a serwerową. W momencie ukończenia przetwarzania problemu przez Dispatch Ridera scheduler przenosi pliki
@@ -29,8 +28,8 @@ do obliczeń, przesyła go do Dispatch Ridera.
 
 \section{Dispatch Rider}
 Serce całego systemu. Aplikacja, która zajmuje się wykonywaniem wszystkich obliczeń związanych z danym problemem.
-Wykorzystana będzie gotowa już aplikacja, napisana przez naszych starszych kolegów, w którą nię będziemy
-ingerować, a jedynie skorzystamy z jej plików wynikowych. Aplikacja jest uruchamiana i zarządzana przez schedulera.
+Wykorzystana będzie gotowa już aplikacja, napisana przez naszych starszych kolegów, nię będziemy
+ingerować w jej kod źródłowy, a jedynie skorzystamy z jej plików wynikowych. Aplikacja jest uruchamiana i zarządzana przez schedulera.
 
 \section{Diagram komponentów systemu}
 

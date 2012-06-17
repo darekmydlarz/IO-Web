@@ -18,7 +18,7 @@ System ma współpracować z już istniejącym oprogramowaniem Dispatch Rider. W
 		
 	\item Kolejkowanie zadań zlecanych systemowi.
 	
-	\item Uruchamianie systemu Dispatch Rider z użyciem dostarczonych z zewnątrz lub wygenerowanych plików
+	\item Uruchamianie systemu Dispatch Rider z użyciem dostarczonych z zewnątrz lub wygenerowanych plików konfiguracyjnych
 	
 	\item Odczyt i parsowanie plików wynikowych Dispatch Ridera, wraz z wizualizacją otrzymanych wyników
 		\begin{itemize}
@@ -33,7 +33,6 @@ System ma współpracować z już istniejącym oprogramowaniem Dispatch Rider. W
 \section{Wymagania niefunkcjonalne}
 
 \begin{enumerate}
-	\item Bezpieczeństwo zapewniane poprzez autoryzację użytkowników.
     \item Dokumentacja techniczna w postaci strony wiki, dokumentu tekstowego oraz komentarzy w kodzie programu.
     \item Przenośność - zapewnienie w pełni poprawnego działania programu na najpopularniejszych przeglądarkach oraz systemach operacyjnych.
     \item Płynność działania wizualizacji grafów w oknie przeglądarki.
@@ -42,29 +41,101 @@ System ma współpracować z już istniejącym oprogramowaniem Dispatch Rider. W
 
 \section{Przypadki użycia}
 
-Jedynym aktorem w naszym systemie jest Użytkownik - osoba posługująca się systemem za pośrednictwem strony WWW jest w stanie dodawać nowe zadania oraz oglądać wyniki już obliczone.
+Jedynym aktorem w naszym systemie jest Użytkownik - osoba posługująca się systemem za pośrednictwem strony WWW - jest ona w stanie dodawać nowe zadania oraz oglądać wyniki już obliczone.\\
 
-	Wyświetlenie zadań oczekujących na wykonanie\\
-	Cel przypadku użycia: Sprawdzenie przez użytkownika jakie zadania zostały już wybrane do wykonania, lecz ich wykonanie się nie rozpoczęło. 
-	Aktor: Użytkownik
-	Warunki początkowe: Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej.
-	Scenariusz:
+	\textbf{Wyświetlenie zadań oczekujących na wykonanie}\\
+	\textbf{Cel przypadku użycia:} Sprawdzenie przez użytkownika jakie zadania zostały już wybrane do wykonania, lecz ich wykonanie się nie rozpoczęło.\\
+	\textbf{Aktor:} Użytkownik\\
+	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej.\\
+	\textbf{Scenariusz:}
 	\begin{enumerate}
-	\item Klient przełącza się na zakładkę zadań oczekujących
+	\item Użytkownik przełącza się na zakładkę zadań oczekujących
 	\item Aplikacja pobiera listę plików znajdujących się w katalogu uploads
-	\item  Aplikacja wyświetla listę plików w postaci tabelki
+	\item  Aplikacja wyświetla listę plików w postaci tabelki\\\\
 	\end{enumerate}
 
-	Wyświetlenie wyników zadań wykonanych\\
-	Cel przypadku użycia: Sprawdzenie przez użytkownika jakie zadania zostały już wybrane do wykonania, lecz ich wykonanie się nie rozpoczęło. 
-	Aktor: Użytkownik
-	Warunki początkowe: Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej.
-	Scenariusz:
+	\textbf{Wyświetlenie wyników zadań wykonanych}\\
+	\textbf{Cel przypadku użycia:} Sprawdzenie przez użytkownika jakie zadania zostały już wybrane do wykonania, lecz ich wykonanie się nie rozpoczęło.\\
+	\textbf{Aktor:} Użytkownik\\
+	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej.\\
+	\textbf{Scenariusz:}
 	\begin{enumerate}
-	\item Klient przełącza się na zakładkę zadań oczekujących
+	\item Użytkownik przełącza się na zakładkę zadań oczekujących
 	\item Aplikacja pobiera listę plików znajdujących się w katalogu uploads
-	\item  Aplikacja wyświetla listę plików w postaci tabelki
+	\item  Aplikacja wyświetla listę plików w postaci tabelki\\\\
 	\end{enumerate}
+	
+	\textbf{Wizualizacja grafu połączeń}\\
+	\textbf{Cel przypadku użycia:} Przedstawienie użytkownikowi grafu obrazującego sposób poruszania się holonów.\\
+	\textbf{Aktor:} Użytkownik\\
+	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej. Dany zestaw został obliczony\\
+	\textbf{Scenariusz:}
+	\begin{enumerate}
+	\item Użytkownik przełącza się na zakładkę zadań obliczonych
+	\item Aplikacja pobiera listę plików znajdujących się w katalogu ready i wyświetla je
+	\item Użytkownik klika na wybrany model obliczeń
+	\item Aplikacja wyświetla graf ukazujący trasy holonów\\\\
+	\end{enumerate}
+	
+	\textbf{Generowanie pliku określającego zlecenia}\\
+	\textbf{Cel przypadku użycia:} Ręczne wprowadzenie przez użytkownika parametrów określających zlecenie.\\
+	\textbf{Aktor:} Użytkownik\\
+	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej.\\
+	\textbf{Scenariusz:}
+	\begin{enumerate}
+	\item Użytkownik przełącza się na zakładkę wprowadzania danych
+	\item Użytkownik wybiera ręczne wprowadzanie danych zlecenia
+	\item Użytkownik wypełnia pola określające poszczególne parametry i klika na zapisz
+	\item Aplikacja zapisuje do katalogu plik określający zadanie\\\\
+	\end{enumerate}
+	
+		\textbf{Generowanie pliku określającego parametry naczep}\\
+	\textbf{Cel przypadku użycia:} Ręczne wprowadzenie przez użytkownika parametrów określających poszczególne naczepy.\\
+	\textbf{Aktor:} Użytkownik\\
+	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej.\\
+	\textbf{Scenariusz:}
+	\begin{enumerate}
+	\item Użytkownik przełącza się na zakładkę wprowadzania danych
+	\item Użytkownik wybiera ręczne wprowadzanie danych naczepy
+	\item Użytkownik wypełnia pola określające poszczególne parametry naczepy i klika na zapisz
+	\item Aplikacja zapisuje do katalogu plik określający zadanie\\\\
+	\end{enumerate}
+	
+		\textbf{Generowanie pliku opisującego parametry holonów}\\
+	\textbf{Cel przypadku użycia:} Ręczne wprowadzenie przez użytkownika parametrów określających holony.\\
+	\textbf{Aktor:} Użytkownik\\
+	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej.\\
+	\textbf{Scenariusz:}
+	\begin{enumerate}
+	\item Użytkownik przełącza się na zakładkę wprowadzania danych
+	\item Użytkownik wybiera ręczne wprowadzanie parametrów holonów
+	\item Użytkownik wypełnia pola initialCapacity, mode, bases, eUnitsCount
+	\item Aplikacja zapisuje do katalogu plik definiujący parametry holonów\\\\
+	\end{enumerate}
+	
+	\textbf{Wyświetlanie informacji o każdym z holonów}\\
+	\textbf{Cel przypadku użycia:} Sprawdzenie przez użytkownika danych pojedyńczego holonu.\\
+	\textbf{Aktor:} Użytkownik\\
+	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej. Na serwerze zostały już przeprowadzone jakieś obliczenia\\
+	\textbf{Scenariusz:}
+	\begin{enumerate}
+	\item Użytkownik przełącza się na zakładkę danych obliczonych.
+	\item Użytkownik wybiera obliczenie
+	\item Użytkownik wybiera interesujący go holon
+	\item Aplikacja wyświetla dane zaznaczonego holonu\\\\
+	\end{enumerate}
+	
+	\textbf{Dodanie danych do obliczeń}\\
+	\textbf{Cel przypadku użycia:} Dodanie zadania do obliczeń.\\
+	\textbf{Aktor:} Użytkownik\\
+	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej.\\
+	\textbf{Scenariusz:}
+	\begin{enumerate}
+	\item Użytkownik przełącza się na zakładkę wprowadzania danych.
+	\item Użytkownik wybiera plik lub wprowadza dane w pola tabeli
+	\item Aplikacja umieszcza dane w folderze uploads\\
+	\end{enumerate}
+
 
 \section{Projekt GUI}
 Projektując GUI webowe staraliśmy się zmaksymalizować czytelność i łatwość korzystania z naszej aplikacji. W związku z tym chcielibyśmy zaimplementować wygląd aplikacji w taki sposób, by informacje w danym momencie nieistotne nie przysłaniały użytkownikowi tych, na których chciałby się skupić. Poniżej prezentujemy pierwsze szkice, które stworzyliśmy. 

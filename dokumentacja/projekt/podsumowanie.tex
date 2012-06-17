@@ -1,12 +1,13 @@
 \chapter{Podsumowanie}
 
-W pracy nad interfejsem webowym dla systemu planowania transportu Dispatch Rider odnieśliśmy częściowy sukces. Udało nam się spełnić tylko część spośród założonych na początku planowania projektu wymagań funkcjonalnych. 
-Naszym celem było stworzenie lekkiego, możliwie niezależnego od głównego systemu Dispatch Rider, aplikacji klienckiej służącej do uruchamiania DR oraz prezentowania wyników jego pracy. Decyzja o budowie nowej aplikacji klienckiej zamiast rozwijania dotychczas istniejącej była motywowana problemami z uruchomieniem owej już istniejącej wersji webowego gui. Jak wspominaliśmy na początku dokumentacji, nie uruchamiała się ona na część systemów operacyjnych/przeglądarek, a po uruchomieniu i tak nie była w stanie komunikować się z DR.
-W chwili obecnej, bogatsi o doświadczenia z pracy nad aplikacją, możem stwierdzić iż wina leżała nie tylko po stronie aplikacji webowej, ale i samego Dispatch Ridera.
-Program nie posiada wyspecyfikowanych interfejsów umożliwiających komunikację z systemem webowym. W związku z tym, postanowiliśmy operować na systemie plików, w odpowiedni sposób operując danymi wejściowymi oraz wyjściowymi.
-Niestety, nie udało się nam uruchomić z powodzeniem DR z linii poleceń systemu - co jest warunkiem koniecznym w każdej architekturze klient-serwer. Mimo wielokrotnych prób, eksperymentów nie udało nam się wypracować sposobu uruchomienia. Co więcej, sam autor systemu nie był w stanie poinformować nas o poprawnym sposobie uruchamiania systemu. 
-
-Mimo powyższych problemów - które niestety uniemożliwiają nam zaprezentowanie wszystkich funkcjonalności naszej aplikacji - udało nam się spełnić pozostałe zdefiniowane przez nas i zaakceptowane przez prowadzących wymagania funkcjonalne. Aplikacja jest w stanie przesyłać oraz wizualizować dane, i może stać się w pełni użyteczna pod warunkiem naprawienia przez autora systemu DR zasygnalizowanych powyżej błędów.
+W pracy nad interfejsem webowym dla systemu planowania transportu Dispatch Rider odnieśliśmy częściowy sukces. Udało nam się spełnić większość spośród założonych na początku planowania projektu wymagań funkcjonalnych, jednak z przyczyn od nas niezależnych nie byliśmy w stanie uruchomić całej architektury naszej warstwy prezentacji.\\ 
+Naszym celem było stworzenie lekkiej, możliwie niezależnej od głównego systemu Dispatch Rider, aplikacji klienckiej służącej do uruchamiania DR oraz prezentowania wyników jego pracy.\\Decyzja o budowie nowej aplikacji klienckiej zamiast rozwijania dotychczas istniejącej była motywowana problemami z uruchomieniem owej już istniejącej wersji webowego gui. Jak wspominaliśmy na początku dokumentacji, nie byliśmy w stanie uruchomić jej na części systemów operacyjnych/przeglądarek, a nawet po uruchomieniu nie była ona w stanie komunikować się z DR.\\
+W chwili obecnej, bogatsi o doświadczenia z pracy nad aplikacją, możemy stwierdzić iż wina leżała nie tylko po stronie aplikacji webowej, ale i samego Dispatch Ridera.\\
+Program nie posiada wyspecyfikowanych interfejsów umożliwiających komunikację z systemem webowym. W związku z tym, podobnie jak nasi poprzednicy, postanowiliśmy operować na systemie plików, w odpowiedni sposób operując danymi wejściowymi oraz wyjściowymi.
+Niestety, nie udało się nam uruchomić z powodzeniem DR z linii poleceń systemu - co jest warunkiem koniecznym w przypadku naszej architektury. Mimo wielokrotnych prób, eksperymentów nie udało nam się wypracować sposobu uruchomienia, co więcej, sam autor systemu nie był w stanie poinformować nas o poprawnym sposobie uruchamiania aplikacji Dispatch Rider. 
+\\
+Mimo powyższych problemów - które niestety uniemożliwiają nam zaprezentowanie wszystkich funkcjonalności naszej aplikacji - udało nam się spełnić pozostałe zdefiniowane przez nas jako najważniejsze i zaakceptowane przez prowadzących wymagania funkcjonalne. Aplikacja jest w stanie przesyłać oraz wizualizować dane, i może stać się w przyszłości w pełni użyteczna pod warunkiem udostępnienia przez autorów systemu Dispatch Rider interfejsów umożliwiających pewną, skuteczną komunikację z systemem.\\
+Możemy uznać że prace zakończyliśmy z sukcesem o tyle, o ile pozwoliły nam na to warunki zewnętrzne. Niestety, sprawdziły się przewidywania poczynione na początku zapoznania z systemem, w których wyrażaliśmy obawy iż sygnalizowane już przez autorów poprzedniej wersji interfejsu webowego problemy z działaniem systemu mogą uniemożliwić działalność części systemu. Za wyjątkowo rozczarowujący uznajemy fakt iż problem sprawiły nam te same kwestie które wymienione były przez autorów wcześniejszej wersji GUI, co oznacza iż nie zostały one naprawione przez rok w którym oprogramowanie DR było ciągle rozwijane.
 \vfill \hfill
 \newpage
 
@@ -22,8 +23,7 @@ prędkość
   \hline
   Generowanie pliku zawierającego liczbę kierowców & TAK \\
   \hline
-  Generowanie pliku określającego parametry ciągników, o składni: moc niezawod-
-ność wygoda zużycie-paliwa typ-zaczepu & TAK \\
+  Generowanie pliku określającego parametry ciągników, o składni: moc niezawodność wygoda zużycie-paliwa typ-zaczepu & TAK \\
   \hline
   Generowanie pliku opisującego parametry naczep o składni: masa pojemność
 typ-ładunku uniwersalność typ-zaczepu & TAK \\
@@ -33,10 +33,9 @@ pojemność-pojazdu mode = tryb bases = ilość-baz eUnitsCount = ilość-jednos
   \hline
   Generowanie pliku konfiguracyjnego configuration.xml & TAK \\
   \hline
-  Kolejkowanie zadań zlecanych systemowi & TAK \\
+  Kolejkowanie zadań zlecanych systemowi & NIE \\
   \hline
-  Uruchamianie systemu Dispatch Rider z użyciem dostarczonych z zewnątrz lub wyge-
-nerowanych plików & TAK \\
+  Uruchamianie systemu Dispatch Rider z użyciem dostarczonych z zewnątrz lub wygenerowanych plików & NIE \\
   \hline
   Wizualizacja grafu sieci transportowej & TAK \\
   \hline
@@ -44,11 +43,6 @@ nerowanych plików & TAK \\
   \hline
   Wyświetlanie informacji o każdym z holonów & TAK \\
   \hline
-  Wyświetlanie zbiorczego podsumowania obliczeń zawierającego koszt, dystans, czas, parametry holonów & NIE \\
-  \hline
-  Wyświetlanie zbiorczego podsumowania obliczeń zawierającego koszt, dystans, czas,
-parametry holonów & NIE \\
-  \hline 
   Przechowywanie wyników obliczeń, w celu zaprezentowania na żądanie & TAK \\
   \hline
 \end{tabularx}
@@ -57,3 +51,10 @@ Jak więc widać z powyższej tabeli większość funkcjonalności udało nam si
 wynikły z problemów związanych z dostarczonym systemem Dispatch Rider, bądź złym rozplanowaniem czasu wykonania
 projektu. Mimo wszystko, najważniejsze wymagania, takie jak ładowanie zadań do systemu oraz wizualizacja tras
 jak najbardziej udało nam się uzyskać, dzięki czemu oceniamy projekt jako zakończony sukcesem.
+
+\section{Napotkane błędy systemu DispatchRider}
+\begin{itemize}
+	\item System nie uruchamia się wogóle przy pomocy linii poleceń w przypadku gdy plik 'configuration.xml' znajduje się gdzie indziej niż katalog główny programu. Nie mają na to wpływu zawarte w nim ścieżki względne, gdyż nawet po zamianie ich na bezwzględne, plik ten musi zostać skopiowany do katalogu głównego by móc go uruchomić.
+	\item Brak generowania pliku wynikowego. W trakcie prac na Schedulerem napotkaliśmy na (wspomnianą już przez zespół Baran-Patrzyk) sytuację gdy Dispatch Rider nie generował plików wynikowych nawet wówczas gdy udawało nam się uruchomić system. Problem ten w efekcie uniemożliwił nam zrealizowanie wszystkich funkcjonalności systemu.
+	\item Problem uruchomienia GUI wbudowanego w Dispatch Riderze. Do pewnego momentu prac, udawało nam się uruchamiać Dispatch Ridera za pomocą komendy \textbf{java -jar GUI.jar}. Niestety, w kolejnej wersji systemu funkcjonalność ta przestała działać, i otrzymywalismy  (na obydwu stacjach roboczych) błąd \textbf{Problem with reading file:xmlschemes/configuration.xsd (No such file or directory) }. Autor systemu nie był w stanie nam pomóc, stwierdzając że u niego dana funkcjonalność działa.
+\end{itemize}
