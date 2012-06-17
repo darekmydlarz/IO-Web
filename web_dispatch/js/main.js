@@ -63,6 +63,10 @@ jQuery(document).ready(function(){
 		validateFile($(this), properties);
 	});
 	
+	$("#addTask #commisions").blur(function(){
+		validateFile($(this), properties);
+	});
+	
 	$("#addTask #configuration").blur(function(){
 		validateFile($(this), ['xml']);
 	});
@@ -73,6 +77,7 @@ jQuery(document).ready(function(){
 		res = validateFile($("#addTask #trailers"), properties) && res;
 		res = validateFile($("#addTask #drivers"), properties) && res;
 		res = validateFile($("#addTask #holons"), properties) && res;
+		res = validateFile($("#addTask #commisions"), properties) && res;
 		res = validateFile($("#addTask #configuration"), ['xml']) && res;
 		return res;
 	});

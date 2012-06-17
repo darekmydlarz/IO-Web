@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"  
+    xsi:noNamespaceSchemaLocation="xml/schemes/configuration.xsd">
+
+	<test>
+        <commissions dynamic="true"
+			packageSending="false" 
+			choosingByCost="true" 
+			STDepth="8" 
+			worstCommissionByGlobalTime="false" 
+			algorithm="BruteForceAlgorithm" 
+			autoConfig="false" 
+			firstComplexSTResultOnly="false"
+			recordin="true">benchmarks/dynamicA/pdp_100/lc101.txt</commissions>
+        <defaultAgents>        
+        	<truck power="600" reliability="4" comfort="4" fuelConsumption="20"/>
+        	<trailer mass="200" capacity="200" cargoType="1" universality="4"/>
+        </defaultAgents>
+        <configuration>tmp_tests/25_200</configuration>
+        <results>tmp_tests/lc101</results>
+        <measures formats = "xml">
+			<measure>NumberOfCommissions</measure>
+			<measure visualize="true">AverageDistanceFromCurLocationToBaseForAllCommissions</measure>
+			<measure>AverageDistPerCommissionBeforeChange</measure>
+		</measures>
+        
+    </test> 
+   
+
+</tests>

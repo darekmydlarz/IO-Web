@@ -8,7 +8,8 @@ class PageImpl extends Page {
 			$dir = self::$ready_dir;
 			$name = $_GET['del'];
 			if(file_exists("$dir/$name")) {
-				//exec("rm -rf $dir/$name");
+				$cmd = "rm -rf $dir/$name";
+				exec($cmd);
 				$content .= "Zadanie <code>$name</code> usunięte pomyślnie!";
 			} else {
 				$content .= "Nie udało się usunąć <code>$name</code>. Takie zadanie nie istnieje w systemie.";
@@ -37,8 +38,8 @@ class PageImpl extends Page {
 				$content .= '<tr>';
 				$content .= '<td>'.$item['name'].'</td>';
 				$content .= '<td>'.$item['date'].'</td>';
-				$content .= '<td><a href="#">pokaż graf</a>';
-				$content .= '<a href="table.php?task='.$item['name'].'">pokaż tabelę</a>';
+				$content .= '<td><a href="graph.php?task='.$item['name'].'">pokaż graf</a>';
+				//$content .= '<a href="table.php?task='.$item['name'].'">pokaż tabelę</a>';
 				$content .= '<a href="ready.php?del='.$item['name'].'" onClick="return confirmDelete()">usuń</a></td>';
 				$content .= '</tr>';
 			}

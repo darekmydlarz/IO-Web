@@ -6,14 +6,15 @@ var holons = [];
 var simTimes;
 var simTimeNum = 0;
 var radius = 6;
+var canvasPosition = 10;
 var holonColor = '#0000ff';
 var pathColor = '#00ff00';
 
 // parsing xml in order to draw holons locations
-jQuery.fn.parseXml = function(){
+jQuery.fn.parseXml = function(dir){
 	$.ajax({
 		type: "GET",
-		url: "./lc101.xls.xml",
+		url: dir + "/lc101.xls.xml",
 		dataType: "xml",
 		success: function(xml) {
 			if(typeof simTimes == "undefined" || simTimes.length == 0)
@@ -39,7 +40,7 @@ jQuery.fn.parseXml = function(){
 
 function Path(x, y, color) {
 	this.color = color;
-	this.path = [[x, y]];
+	this.path = [[x + canvasPosition, y + canvasPosition]];
 	
 	this.draw = function() {
 		context.beginPath();
@@ -54,15 +55,15 @@ function Path(x, y, color) {
 	}
 	
 	this.add = function(x, y) {
-		this.path.push([x, y]);
+		this.path.push([x + canvasPosition, y + canvasPosition]);
 	}
 }
 
 function Node(x, y, radius, color, text, connectNodeIndex) {
 	this.color = color;
 	this.radius = radius;
-	this.x = x;
-	this.y = y;
+	this.x = x + canvasPosition;
+	this.y = y + canvasPosition;
 	this.text = text;
 	this.connectNodeIndex = connectNodeIndex;	// used to draw map
 	
@@ -82,8 +83,8 @@ function Node(x, y, radius, color, text, connectNodeIndex) {
 	}
 	
 	this.moveTo = function(x, y) {
-		this.x = x;
-		this.y = y;
+		this.x = x + canvasPosition;
+		this.y = y + canvasPosition;
 	}
 	
 	this.connectWith = function(node, color) {
@@ -116,7 +117,7 @@ var drawGraph = function () {
 }
 
 var init = function(filepath) {	
-	$.getJSON(filepath,function(data){
+	$.getJSON(filepath + '/map.js', function(data){
 		var radius = 3;
 		$.each(data, function(index){
 			this.x *= (canvas.width) / 100;
@@ -128,19 +129,20 @@ var init = function(filepath) {
 	});
 }
 
-var nextSimTime = function() {
+var nextSimTime = function(dir) {
 	canvas = document.getElementById("myCanvas");
 	context = canvas.getContext("2d");
 	context.clearRect (0 , 0 , canvas.width , canvas.height);
 	++simTimeNum;		// global variable
 	drawMap();
-	jQuery(document).parseXml();
+	jQuery(document).parseXml(dir);
 }
 
-$().ready(function(){ 
-	init("./js/map.js");
+var start = function(dir) {
+	// var dir = "./ready/sample0";
+	init(dir);
 	drawMap();
-	jQuery(document).parseXml();
+	jQuery(document).parseXml(dir);
 	
-	setInterval("nextSimTime()", 14);
-});
+	setInterval("nextSimTime('" + dir + "')", 14);
+}

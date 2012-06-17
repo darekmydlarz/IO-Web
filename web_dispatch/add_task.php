@@ -29,6 +29,10 @@ class AddTaskPage extends Page {
 			fwrite($info_fh, date('Y-m-d H:i:s'));
 			fclose($ourFileHandle);
 			
+			// run script which generates map for a task
+			$cmd = './scripts/map-script.py '.$dir;
+			exec($cmd);
+			
 			
 			$content .= 'Zadanie: <code>'.$task.'</code> utworzono pomyślnie';
 		} else {
@@ -36,16 +40,19 @@ class AddTaskPage extends Page {
 			$content .= $this->input('task', 'Nazwa zadania', array(
 				'type' => 'text'
 			));
-			$content .= $this->input('trucks', 'Parametry ciągników', array(
+			$content .= $this->input('trucks', 'Ciągniki', array(
 				'type' => 'file'
 			));
-			$content .= $this->input('trailers', 'Parametry naczep', array(
+			$content .= $this->input('trailers', 'Naczepy', array(
 				'type' => 'file'
 			));
-			$content .= $this->input('drivers', 'Parametry kierowców', array(
+			$content .= $this->input('drivers', 'Kierowcy', array(
 				'type' => 'file'
 			));
-			$content .= $this->input('holons', 'Parametry holonów', array(
+			$content .= $this->input('holons', 'Holony', array(
+				'type' => 'file'
+			));
+			$content .= $this->input('commisions', 'Zlecenia', array(
 				'type' => 'file'
 			));
 			$content .= $this->input('configuration', 'Konfiguracja', array(
