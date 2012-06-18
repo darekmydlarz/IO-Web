@@ -39,7 +39,7 @@ class PageImpl extends Page {
 				$content .= '<td>'.$item['name'].'</td>';
 				$content .= '<td>'.$item['date'].'</td>';
 				$content .= '<td><a href="graph.php?task='.$item['name'].'">pokaż graf</a>';
-				//$content .= '<a href="table.php?task='.$item['name'].'">pokaż tabelę</a>';
+				$content .= '<a href="table.php?task='.$item['name'].'">pokaż tabelę</a>';
 				$content .= '<a href="ready.php?del='.$item['name'].'" onClick="return confirmDelete()">usuń</a></td>';
 				$content .= '</tr>';
 			}
