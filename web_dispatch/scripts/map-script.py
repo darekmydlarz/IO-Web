@@ -26,8 +26,8 @@ if __name__ == "__main__":
 	fileLines = f.readlines();	
 	# first line contains info about base localization (before first line is zero line!)
 	firstline = fileLines[1:2]
-	# skip 2 first lines	(configuration lines, base info)
-	lines = fileLines[2:]
+	# skip first line	(configuration line)
+	lines = fileLines[1:]
 	f.close()
 	
 	firstline = firstline[0].split()	

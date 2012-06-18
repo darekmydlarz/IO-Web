@@ -9,6 +9,8 @@ var radius = 6;
 var canvasPosition = 10;
 var holonColor = '#0000ff';
 var pathColor = '#00ff00';
+var baseX = 0;
+var baseY = 0;
 
 // parsing xml in order to draw holons locations
 jQuery.fn.parseXml = function(dir){
@@ -24,13 +26,16 @@ jQuery.fn.parseXml = function(dir){
 				var x = parseFloat($(this).attr('locationX')) * (canvas.width / 100);
 				var y = parseFloat($(this).attr('locationY')) * (canvas.height / 100);
 				var id = $(this).attr('id');
+				// initialize
 				if(typeof holons[id] == 'undefined') {
-					holons[id] = new Node(x, y, radius, holonColor, id);
-					paths[id] = new Path(x, y, pathColor);
-				} else {
-					holons[id].moveTo(x, y);
-					paths[id].add(x, y);
+					holons[id] = new Node(baseX, baseY, radius, holonColor, id);
+					paths[id] = new Path(baseX, baseY, pathColor);
 				}
+				holons[id].moveTo(x, y);
+				paths[id].add(x, y);
+				
+				
+				
 			});
 			// redraw holons positions
 			drawGraph();
@@ -125,6 +130,10 @@ var init = function(filepath) {
 			color = this.from > 0 ? '#ff0000' : '#929292';
 			var connectNodeIndex = this.from > 0 ? this.from : this.to;
 			cities.push(new Node(this.x, this.y, radius, color, index, connectNodeIndex));
+			if(index == 0) {
+				baseX = this.x;
+				baseY = this.y;
+			}
 		});
 	});
 }
