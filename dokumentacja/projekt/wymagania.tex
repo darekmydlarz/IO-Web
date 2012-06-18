@@ -43,7 +43,7 @@ System ma współpracować z już istniejącym oprogramowaniem Dispatch Rider. W
 
 Jedynym aktorem w naszym systemie jest Użytkownik - osoba posługująca się systemem za pośrednictwem strony WWW - jest ona w stanie dodawać nowe zadania oraz oglądać wyniki już obliczone.\\
 
-	\textbf{Wyświetlenie zadań oczekujących na wykonanie}\\
+\subsection{Wyświetlenie zadań oczekujących na wykonanie}
 	\textbf{Cel przypadku użycia:} Sprawdzenie przez użytkownika jakie zadania zostały już wybrane do wykonania, lecz ich wykonanie się nie rozpoczęło.\\
 	\textbf{Aktor:} Użytkownik\\
 	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej.\\
@@ -54,7 +54,7 @@ Jedynym aktorem w naszym systemie jest Użytkownik - osoba posługująca się sy
 	\item  Aplikacja wyświetla listę plików w postaci tabelki\\\\
 	\end{enumerate}
 
-	\textbf{Wyświetlenie wyników zadań wykonanych}\\
+\subsection{Wyświetlenie wyników zadań wykonanych}
 	\textbf{Cel przypadku użycia:} Sprawdzenie przez użytkownika jakie zadania zostały już wybrane do wykonania, lecz ich wykonanie się nie rozpoczęło.\\
 	\textbf{Aktor:} Użytkownik\\
 	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej.\\
@@ -64,8 +64,7 @@ Jedynym aktorem w naszym systemie jest Użytkownik - osoba posługująca się sy
 	\item Aplikacja pobiera listę plików znajdujących się w katalogu uploads
 	\item  Aplikacja wyświetla listę plików w postaci tabelki\\\\
 	\end{enumerate}
-	
-	\textbf{Wizualizacja grafu połączeń}\\
+\subsection{Wizualizacja grafu połączeń}
 	\textbf{Cel przypadku użycia:} Przedstawienie użytkownikowi grafu obrazującego sposób poruszania się holonów.\\
 	\textbf{Aktor:} Użytkownik\\
 	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej. Dany zestaw został obliczony\\
@@ -77,7 +76,7 @@ Jedynym aktorem w naszym systemie jest Użytkownik - osoba posługująca się sy
 	\item Aplikacja wyświetla graf ukazujący trasy holonów\\\\
 	\end{enumerate}
 	
-	\textbf{Generowanie pliku określającego zlecenia}\\
+\subsection{Generowanie pliku określającego zlecenia}
 	\textbf{Cel przypadku użycia:} Ręczne wprowadzenie przez użytkownika parametrów określających zlecenie.\\
 	\textbf{Aktor:} Użytkownik\\
 	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej.\\
@@ -89,7 +88,7 @@ Jedynym aktorem w naszym systemie jest Użytkownik - osoba posługująca się sy
 	\item Aplikacja zapisuje do katalogu plik określający zadanie\\\\
 	\end{enumerate}
 	
-		\textbf{Generowanie pliku określającego parametry naczep}\\
+\subsection{Generowanie pliku określającego parametry naczep}
 	\textbf{Cel przypadku użycia:} Ręczne wprowadzenie przez użytkownika parametrów określających poszczególne naczepy.\\
 	\textbf{Aktor:} Użytkownik\\
 	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej.\\
@@ -101,7 +100,7 @@ Jedynym aktorem w naszym systemie jest Użytkownik - osoba posługująca się sy
 	\item Aplikacja zapisuje do katalogu plik określający zadanie\\\\
 	\end{enumerate}
 	
-		\textbf{Generowanie pliku opisującego parametry holonów}\\
+\subsection{Generowanie pliku opisującego parametry holonów}
 	\textbf{Cel przypadku użycia:} Ręczne wprowadzenie przez użytkownika parametrów określających holony.\\
 	\textbf{Aktor:} Użytkownik\\
 	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej.\\
@@ -113,7 +112,7 @@ Jedynym aktorem w naszym systemie jest Użytkownik - osoba posługująca się sy
 	\item Aplikacja zapisuje do katalogu plik definiujący parametry holonów\\\\
 	\end{enumerate}
 	
-	\textbf{Wyświetlanie informacji o każdym z holonów}\\
+\subsection{Wyświetlanie informacji o każdym z holonów}
 	\textbf{Cel przypadku użycia:} Sprawdzenie przez użytkownika danych pojedyńczego holonu.\\
 	\textbf{Aktor:} Użytkownik\\
 	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej. Na serwerze zostały już przeprowadzone jakieś obliczenia\\
@@ -125,7 +124,7 @@ Jedynym aktorem w naszym systemie jest Użytkownik - osoba posługująca się sy
 	\item Aplikacja wyświetla dane zaznaczonego holonu\\\\
 	\end{enumerate}
 	
-	\textbf{Dodanie danych do obliczeń}\\
+\subsection{Dodanie danych do obliczeń}
 	\textbf{Cel przypadku użycia:} Dodanie zadania do obliczeń.\\
 	\textbf{Aktor:} Użytkownik\\
 	\textbf{Warunki początkowe:} Istnieje aplikacja serwera, klient jest do niej podłączony przy pomocy aplikacji klienckiej.\\
@@ -136,15 +135,45 @@ Jedynym aktorem w naszym systemie jest Użytkownik - osoba posługująca się sy
 	\item Aplikacja umieszcza dane w folderze uploads\\
 	\end{enumerate}
 
+\vfill\hfill
+\newpage
 
 \section{Projekt GUI}
 Projektując GUI webowe staraliśmy się zmaksymalizować czytelność i łatwość korzystania z naszej aplikacji. W związku z tym chcielibyśmy zaimplementować wygląd aplikacji w taki sposób, by informacje w danym momencie nieistotne nie przysłaniały użytkownikowi tych, na których chciałby się skupić. Poniżej prezentujemy pierwsze szkice, które stworzyliśmy. 
 \begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[scale=0.3]{imgs/unlogged_home.jpg}
+\caption{Strony powitalna}
+\label{fig:home_page}
+\end{figure}
+\end{center}
 
+\vfill\hfill
+
+\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[scale=0.3]{imgs/logged_home.jpg}
+\caption{Lista zadań}
+\label{fig:tasks_list}
+\end{figure}
+\end{center}
 
+\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[scale=0.3]{imgs/logged_home_menu.jpg}
+\caption{Menu aplikacji}
+\label{fig:app_menu}
+\end{figure}
+\end{center}
 
+\begin{center}
+\begin{figure}[H]
+\centering
 \includegraphics[scale=0.3]{imgs/logged_graph_viewjpg.jpg}
+\caption{Widok grafu}
+\label{fig:graph_view}
+\end{figure}
 \end{center}

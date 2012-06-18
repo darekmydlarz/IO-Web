@@ -1,6 +1,18 @@
 \chapter{Architektura systemu}
 Architektura budowanego systemu nie będzie skomplikowana -- jej prostota zapewniająca przenośność oraz łatwość uruchomienia jest jednym z naszych założeń. Całość, czyli aplikacja internetowa, scheduler oraz Dispatch Rider, uruchamiana
 będzie na jednej maszynie -- serwerze.
+
+
+\section{Diagram komponentów systemu}
+\begin{center}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.35]{imgs/IO.jpeg}
+\caption{Diagram komponentów systemu}
+\label{fig:diagram_komponentow}
+\end{figure}
+\end{center}
+
 \section{Aplikacja internetowa}
 Aplikacja internetowa to implementacja interfejsu, za pomocą której użytkownik będzie mógł łączyć się z systemem i pracować na nim.
 Zostanie napisana między innymi przy użyciu języka PHP, co oznacza, że na serwerze,
@@ -30,9 +42,3 @@ do obliczeń, przesyła go do Dispatch Ridera.
 Serce całego systemu. Aplikacja, która zajmuje się wykonywaniem wszystkich obliczeń związanych z danym problemem.
 Wykorzystana będzie gotowa już aplikacja, napisana przez naszych starszych kolegów, nię będziemy
 ingerować w jej kod źródłowy, a jedynie skorzystamy z jej plików wynikowych. Aplikacja jest uruchamiana i zarządzana przez schedulera.
-
-\section{Diagram komponentów systemu}
-
-\begin{center}
-\includegraphics[scale=0.35]{imgs/IO.jpeg}
-\end{center}
