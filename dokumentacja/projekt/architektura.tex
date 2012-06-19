@@ -44,7 +44,8 @@ Wykorzystana będzie gotowa już aplikacja, napisana przez naszych starszych kol
 ingerować w jej kod źródłowy, a jedynie skorzystamy z jej plików wynikowych. Aplikacja jest uruchamiana i zarządzana przez schedulera.
 
 \section{Diagramy sekwencji}
-
+\subsection{Ładowanie danych}\\\\
+\\Diagram ukazujący przebieg ładowania danych na serwer z użyciem aplikacji klienckiej. Dane przesyłane są na serwer, gdzie uruchamiany jest napisany w języku Python skrypt, zwracający mapę tras.
 \begin{center}
 \begin{figure}[H]
 \centering
@@ -53,7 +54,9 @@ ingerować w jej kod źródłowy, a jedynie skorzystamy z jej plików wynikowych
 \label{fig:tasks_list}
 \end{figure}
 \end{center}
-
+\newpage
+\subsection{Główna pętla programu}\\\\
+\\Diagram ukazujący główną pętlę w której działa program. Scheduler pobiera dane umieszczone na serwerze za pomocą aplikacji klienta, i uruchamia za ich pomocą Dispatch Ridera. Następnie sprawdza czy powstały wyniki obliczeń, zwraca je do aplikacji klienckiej.
 \begin{center}
 \begin{figure}[H]
 \centering
